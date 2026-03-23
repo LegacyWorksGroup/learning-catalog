@@ -2,7 +2,7 @@
 title: "Tools and Practices to Support Group Decision Making"
 author: "Inclusive Facilitation Series"
 description: "Rrecognize the stages of participatory decision making and the type of thinking (divergent, emergent, or convergent) required for each stage"
-categories: ["Values: Practice Entrepreneurialism", "Values: Work with Adaptability", "Skills: Distributed Leadership", "Skills: Systems Thinking & Synthesis"]
+categories: ["Values: Practice Entrepreneurialism", "Values: Work with Adaptability", "Skills: Distributed Leadership", "Skills: Systems Thinking & Synthesis", "Stewardship: Active Listening", "Stewardship: Move at the Speed of Trust", "Stewardship: Embrace Complexity", "Stewardship: Work to Transform Power", "Stewardship: Build Capacity in Others"]
 ---
 
 ## Session Materials
