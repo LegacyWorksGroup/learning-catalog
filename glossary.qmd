@@ -8,7 +8,7 @@ All core competencies can be assigned into one of four categories: {{< fa heart 
 ### {{< fa heart >}} Values | Valores
 
 | Competency | Description | Performance Indicators |
-|:---|:-----------------|:--------------------|
+|:-------|:-----------------|:--------------------|
 | Practice entrepreneurialism | Passionate about new ideas and emerging possibilities, and willingness to show up to meet needs | {{< fa angles-right >}} Is passionate about possibility and recognizes paths for emergence of new ideas and processes <br> {{< fa angles-right >}} Takes ownership across levels of work, approaching administrative, operational, and strategic needs as essential steps in realizing possibility |
 | Exercise creative courage | Act with curiosity and bravery, share bold ideas, and embrace both experimentation and the inevitable mistakes that come with trying something new | {{< fa angles-right >}} Cultivates and demonstrates a personal ethos of curiosity and courage to think, feel, share and act creatively <br> {{< fa angles-right >}} Sets clear, but kind boundaries <br> {{< fa angles-right >}} Invites sharing and celebration of wild ideas along with the mistakes that will come when trying them |
 | Take action to learn | Pursue learning through deliberate action, balance reflection with progress, and work steadily toward long-term goals despite challenges | {{< fa angles-right >}} Designs a personal learning pathway; co-creates opportunities for learning <br> {{< fa angles-right >}} Balances quick action with thoughtful reflection |
@@ -16,13 +16,17 @@ All core competencies can be assigned into one of four categories: {{< fa heart 
 | Embrace vulnerability | Step into uncertainty with openness, ask for support and feedback, and own your learning and growth with honesty and courage | {{< fa angles-right >}} Seeks help, feedback and collaboration <br> {{< fa angles-right >}} Owns where they are and what they need to learn |
 | Work with adaptability | Embrace change, pivot with intention, and stay open to evolving paths and outcomes | {{< fa angles-right >}} Shows an ability and willingness to pivot and course correct, and stay open to what the process and results look like |
 
-:::
-
-### {{< fa wand-magic-sparkles >}} Skills
+### {{< fa wand-magic-sparkles >}} Skills | Habilidades
 
 | Competency | Description | Performance Indicators |
-|:---|:-----------------|:--------------------|
-| x | X | {{< fa angles-right >}} <br> {{< fa angles-right >}} |
+|:-------|:-----------------|:--------------------|
+| Bring vision to life \| Dar vida a la visión | Passionately co-creates an inspiring vision, translate it into clear agreements and goals, and follow through with disciplined prioritization and daily execution | {{< fa angles-right >}} Passionately co-creates an inspiring vision, shares the big picture, and follows through to execution of vision <br> {{< fa angles-right >}} Creates clear team agreements, goals, expectations, and co-constructed narratives <br> {{< fa angles-right >}} Demonstrates ability to prioritize, organize, calendar and manage tasks and key milestones |
+| Candid communication \| Comunicación sincera | Speak and write openly, honestly, and with compassion, keeping messages clear, timely, and accessible | {{< fa angles-right >}} Adapts language, tone, and style to different audiences and contexts to connect effectively across differences <br> {{< fa angles-right >}} Communicates with authentic candor and compassion, sharing truth while owning their impact on others <br> {{< fa angles-right >}} Shares information consistently and in a timely manner to maintain alignment, and when out of alignment to name it and address it in real time <br> {{< fa angles-right >}} Models excellent writing skills and professional email correspondence <br> {{< fa angles-right >}}Expresses ideas clearly and concisely, making complex concepts accessible |
+| Distributed leadership \| Liderazgo distribuido | Step up to lead where opportunities arise and create space for others to lead, share power, and break down top-down structures through collaboration | {{< fa angles-right >}} Actively creates space for others to lead and contribute, recognizing diverse strengths <br> {{< fa angles-right >}} Identifies need and steps into leadership, taking initiative to move work forward <br> {{< fa angles-right >}} Shares decision-making to distribute authority and fosters shared ownership <br> {{< fa angles-right >}} Delegates thoughtfully, assigning tasks and responsibilities in ways that build skills, empower others, and foster shared accountability |
+| Systems Thinking & Synthesis \| Pensamiento sistémico y síntesis | Seek diverse perspectives, connect insights across sources, and generate questions and conclusions to understand how systems work. | {{< fa angles-right >}} Identifies patterns and root causes by questioning assumptions and analyzing complex problems across systems <br> {{< fa angles-right >}} Transforms complexity into clarity by integrating diverse data and perspectives into actionable insights and decisions |
+| Progressive technology \| Tecnología progresiva | Profficient in utilizing various technological tools and platforms, both current and emergent | {{< fa angles-right >}} Open to learning and exploring new technological tools, systems, and processes <br> {{< fa angles-right >}} Utilizes technological tools and platforms efficiently and effectively to fulfill the objectives at hand |
+
+:::
 
 ### {{< fa hand-holding-heart >}} Stewardship
 
