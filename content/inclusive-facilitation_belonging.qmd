@@ -1,0 +1,16 @@
+---
+title: "Facilitation Practices to Support Access, Inclusion, & Belonging"
+author: "Inclusive Facilitation Series"
+description: "Explore the benefits of inclusive facilitation and develop participants’ comfort and skill in facilitating virtual and in person sessions that engage people across differences"
+categories: ["Values: Empathize", "Values: Embrace Vulnerability"]
+---
+
+## Session Materials
+
+To visit this session's materials, click [here](https://legacyworksgroup.github.io/inclusive-facilitation/content/belonging.html) or see below.
+
+```{=html}
+<iframe src="https://legacyworksgroup.github.io/inclusive-facilitation/content/belonging.html" height="550" width="800" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
