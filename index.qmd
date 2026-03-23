@@ -1,9 +1,9 @@
 ---
 title: "Core Competencies Catalog"
 listing:
-  contents: content
-  sort: "date desc"
+  contents: "content/*.qmd"
   type: default
+  fields: [title, subtitle, author]
   categories: true
   sort-ui: true
   filter-ui: true
