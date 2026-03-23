@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Core Competencies Catalog – LegacyWorks Group Learning Catalog</title>
+<title>Core Competencies Glossary – LegacyWorks Group Learning Catalog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,8 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./content/images/logo_lwg-circle.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -79,65 +77,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -341,27 +281,27 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Searchable Catalog</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./glossary.html">Glossary</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Searchable Catalog</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Glossary</span></a>
   </div>
 </li>
@@ -371,20 +311,29 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206865617274203e7d7d-values" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206865617274203e7d7d-values" class="nav-link active" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206865617274203e7d7d-values"><i class="fa-solid fa-heart" aria-label="heart"></i> Values</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612077616e642d6d616769632d737061726b6c6573203e7d7d-skills" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612077616e642d6d616769632d737061726b6c6573203e7d7d-skills" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612077616e642d6d616769632d737061726b6c6573203e7d7d-skills"><i class="fa-solid fa-wand-magic-sparkles" aria-label="wand-magic-sparkles"></i> Skills</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612068616e642d686f6c64696e672d6865617274203e7d7d-stewardship" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612068616e642d686f6c64696e672d6865617274203e7d7d-stewardship" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612068616e642d686f6c64696e672d6865617274203e7d7d-stewardship"><i class="fa-solid fa-hand-holding-heart" aria-label="hand-holding-heart"></i> Stewardship</a></li>
+  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207371756172652d706f6c6c2d766572746963616c203e7d7d-results" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207371756172652d706f6c6c2d766572746963616c203e7d7d-results" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207371756172652d706f6c6c2d766572746963616c203e7d7d-results"><i class="fa-solid fa-square-poll-vertical" aria-label="square-poll-vertical"></i> Results</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/LegacyWorksGroup/learning-catalog/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Core Competencies Catalog</h1>
+<h1 class="title">Core Competencies Glossary</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta">
 
     
   
@@ -396,25 +345,23 @@ window.Quarto = {
 </header>
 
 
-<p><img src="content/images/logo_lwg-long.png" alt="Logo for LegacyWorks Group" width="30%" align="right"></p>
-<p>Use this page to search for which currently-available trainings leverage the selected Core Competencies.</p>
-<p><br></p>
+<p>All Core Competencies can be assigned into one of four categories: <i class="fa-solid fa-heart" aria-label="heart"></i> Values, <i class="fa-solid fa-wand-magic-sparkles" aria-label="wand-magic-sparkles"></i> Skills, <i class="fa-solid fa-hand-holding-heart" aria-label="hand-holding-heart"></i> Stewardship, and <i class="fa-solid fa-square-poll-vertical" aria-label="square-poll-vertical"></i> Results. Click the relevant tab below for more details on the Core Competencies within each category.</p>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206865617274203e7d7d-values" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206865617274203e7d7d-values"><i class="fa-solid fa-heart" aria-label="heart"></i> Values</h3>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612077616e642d6d616769632d737061726b6c6573203e7d7d-skills" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612077616e642d6d616769632d737061726b6c6573203e7d7d-skills"><i class="fa-solid fa-wand-magic-sparkles" aria-label="wand-magic-sparkles"></i> Skills</h3>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612068616e642d686f6c64696e672d6865617274203e7d7d-stewardship" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612068616e642d686f6c64696e672d6865617274203e7d7d-stewardship"><i class="fa-solid fa-hand-holding-heart" aria-label="hand-holding-heart"></i> Stewardship</h3>
+</section>
+<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207371756172652d706f6c6c2d766572746963616c203e7d7d-results" class="level3">
+<h3 class="anchored" data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661207371756172652d706f6c6c2d766572746963616c203e7d7d-results"><i class="fa-solid fa-square-poll-vertical" aria-label="square-poll-vertical"></i> Results</h3>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -841,7 +788,7 @@ window.Quarto = {
     </div>   
     <div class="nav-footer-center">
 <p>© 2026, LegacyWorks Group (Loop: <a href="https://sites.google.com/legacyworksgroup.com/legacy-loop/legacyloop"><i class="fa-solid fa-arrows-spin" aria-label="arrows-spin"></i></a>)</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/LegacyWorksGroup/learning-catalog/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LegacyWorksGroup/learning-catalog/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
