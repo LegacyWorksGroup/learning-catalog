@@ -2,21 +2,36 @@
 title: "Core Competencies Glossary"
 ---
 
-All Core Competencies can be assigned into one of four categories: {{< fa heart >}} Values, {{< fa wand-magic-sparkles >}} Skills, {{< fa hand-holding-heart >}} Stewardship, and {{< fa square-poll-vertical >}} Results. Click the relevant tab below for more details on the Core Competencies within each category.
+All core competencies can be assigned into one of four categories: {{< fa heart >}} **Values**, {{< fa wand-magic-sparkles >}} **Skills**, {{< fa hand-holding-heart >}} **Stewardship**, and {{< fa square-poll-vertical >}} **Results**. Click the relevant tab below for more details on the competencies within each category.
 
-### {{< fa heart >}} Values
+:::{.panel-tabset}
+### {{< fa heart >}} Values | Valores
 
+| Competency | Description | Performance Indicators |
+|:---|:-----------------|:--------------------|
+| Practice entrepreneurialism | Passionate about new ideas and emerging possibilities, and willingness to show up to meet needs | {{< fa angles-right >}} Is passionate about possibility and recognizes paths for emergence of new ideas and processes <br> {{< fa angles-right >}} Takes ownership across levels of work, approaching administrative, operational, and strategic needs as essential steps in realizing possibility |
+| Exercise creative courage | Act with curiosity and bravery, share bold ideas, and embrace both experimentation and the inevitable mistakes that come with trying something new | {{< fa angles-right >}} Cultivates and demonstrates a personal ethos of curiosity and courage to think, feel, share and act creatively <br> {{< fa angles-right >}} Sets clear, but kind boundaries <br> {{< fa angles-right >}} Invites sharing and celebration of wild ideas along with the mistakes that will come when trying them |
+| Take action to learn | Pursue learning through deliberate action, balance reflection with progress, and work steadily toward long-term goals despite challenges | {{< fa angles-right >}} Designs a personal learning pathway; co-creates opportunities for learning <br> {{< fa angles-right >}} Balances quick action with thoughtful reflection |
+| Empathize | Listen deeply to others’ experiences, and create opportunities that center the voices of the people and communities you are working with | {{< fa angles-right >}} Actively seeks insight from the experience and perspective of others <br> {{< fa angles-right >}} Empathizes from a place of love, respect and curiosity |
+| Embrace vulnerability | Step into uncertainty with openness, ask for support and feedback, and own your learning and growth with honesty and courage | {{< fa angles-right >}} Seeks help, feedback and collaboration <br> {{< fa angles-right >}} Owns where they are and what they need to learn |
+| Work with adaptability | Embrace change, pivot with intention, and stay open to evolving paths and outcomes | {{< fa angles-right >}} Shows an ability and willingness to pivot and course correct, and stay open to what the process and results look like |
 
+:::
 
 ### {{< fa wand-magic-sparkles >}} Skills
 
-
+| Competency | Description | Performance Indicators |
+|:---|:-----------------|:--------------------|
+| x | X | {{< fa angles-right >}} <br> {{< fa angles-right >}} |
 
 ### {{< fa hand-holding-heart >}} Stewardship
 
-
+| Competency | Description | Performance Indicators |
+|:---|:-----------------|:--------------------|
+| x | X | {{< fa angles-right >}} <br> {{< fa angles-right >}} |
 
 ### {{< fa square-poll-vertical >}} Results
 
-
-
+| Competency | Description | Performance Indicators |
+|:---|:-----------------|:--------------------|
+| x | X | {{< fa angles-right >}} <br> {{< fa angles-right >}} |
