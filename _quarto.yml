@@ -24,8 +24,10 @@ website:
     collapse-level: 2
     style: docked
     contents:
-      - text: "Learning Overview"
+      - text: "Searchable Catalog"
         href: index.qmd
+      - text: "Glossary"
+        href: glossary.qmd
   page-footer: 
     center: "&copy; 2026, LegacyWorks Group (Loop: [{{< fa arrows-spin >}}](https://sites.google.com/legacyworksgroup.com/legacy-loop/legacyloop))"
     background: secondary
