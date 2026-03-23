@@ -1,0 +1,41 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+execute: 
+  freeze: auto
+
+website:
+  favicon: content/images/logo_lwg-circle.png
+  title: "LegacyWorks Group Learning Catalog"
+  repo-url: https://github.com/LegacyWorksGroup/learning-catalog
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    right: 
+      - text: "LegacyWorks Home"
+        href: https://legacyworksgroup.com/
+      - icon: github
+        href: https://github.com/LegacyWorksGroup/learning-catalog
+  sidebar:
+    collapse-level: 2
+    style: docked
+    contents:
+      - text: "Learning Overview"
+        href: index.qmd
+  page-footer: 
+    center: "&copy; 2026, LegacyWorks Group (Loop: [{{< fa arrows-spin >}}](https://sites.google.com/legacyworksgroup.com/legacy-loop/legacyloop))"
+    background: secondary
+
+format:
+  html:
+    toc: true
+    link-external-newwindow: true
+    link-external-icon: false
+    theme:
+      light: themes/lwg-light.scss
+      dark: themes/lwg-dark.scss
+    mainfont: Open Sans

@@ -1,0 +1,18 @@
+---
+title: "Core Competencies Catalog"
+listing:
+  contents: content
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+---
+
+<img src="content/images/logo_lwg-long.png" alt="Logo for LegacyWorks Group" width="30%" align="right"/>
+
+Use this page to search for which currently-available trainings leverage the selected Core Competencies.
+
+<br>
+
