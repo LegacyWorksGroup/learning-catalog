@@ -1,0 +1,15 @@
+---
+title: "Core Competency Tags"
+---
+
+This page--at time of writing--is not rendered in the website. However, it is a useful **place from which to copy/paste core competency tags as new pages are added.** This should cut down on the number of typos in competency tags which, in turn, makes trainings under particular competencies more findable in the catalog.
+
+## Value Tags
+
+"Values: Practice Entrepreneurialism"
+"Values: Exercise Creative Courage"
+"Values: Take Action to Learn"
+"Values: Empathize"
+"Values: Embrace Vulnerability"
+"Values: Work with Adaptability"
+
