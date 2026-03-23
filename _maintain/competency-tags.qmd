@@ -13,3 +13,12 @@ This page--at time of writing--is not rendered in the website. However, it is a 
 "Values: Embrace Vulnerability"
 "Values: Work with Adaptability"
 
+## Skill Tags
+
+"Skills: Bring Vision to Life"
+"Skills: Candid Communication"
+"Skills: Distributed Leadership"
+"Skills: Systems Thinking & Synthesis"
+"Skills: Progressive Technology"
+
+
