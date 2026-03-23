@@ -1,6 +1,10 @@
 [
   {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/content/inclusive-facilitation_meetings.html",
+      "/content/inclusive-facilitation_belonging.html",
+      "/content/inclusive-facilitation_decision-making.html"
+    ]
   }
 ]
