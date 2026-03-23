@@ -4,6 +4,7 @@ title: "Core Competencies Glossary"
 
 All core competencies can be assigned into one of four categories: {{< fa heart >}} **Values**, {{< fa wand-magic-sparkles >}} **Skills**, {{< fa hand-holding-heart >}} **Stewardship**, and {{< fa square-poll-vertical >}} **Results**. Click the relevant tab below for more details on the competencies within each category.
 
+
 :::{.panel-tabset}
 ### {{< fa heart >}} Values | Valores
 
@@ -26,16 +27,20 @@ All core competencies can be assigned into one of four categories: {{< fa heart 
 | Systems Thinking & Synthesis \| Pensamiento sistémico y síntesis | Seek diverse perspectives, connect insights across sources, and generate questions and conclusions to understand how systems work. | {{< fa angles-right >}} Identifies patterns and root causes by questioning assumptions and analyzing complex problems across systems <br> {{< fa angles-right >}} Transforms complexity into clarity by integrating diverse data and perspectives into actionable insights and decisions |
 | Progressive technology \| Tecnología progresiva | Profficient in utilizing various technological tools and platforms, both current and emergent | {{< fa angles-right >}} Open to learning and exploring new technological tools, systems, and processes <br> {{< fa angles-right >}} Utilizes technological tools and platforms efficiently and effectively to fulfill the objectives at hand |
 
-:::
-
-### {{< fa hand-holding-heart >}} Stewardship
+### {{< fa hand-holding-heart >}} Stewardship | Fortalecimiento
 
 | Competency | Description | Performance Indicators |
-|:---|:-----------------|:--------------------|
-| x | X | {{< fa angles-right >}} <br> {{< fa angles-right >}} |
+|:-------|:-----------------|:--------------------|
+| Active listening \| Escucha activa | Stay fully present, ask open-ended questions, listen for story and possibility, and build on others’ ideas while centering voices that are often unheard | {{< fa angles-right >}} Actively listens to, demonstrates understanding and builds on the thoughts and ideas of others <br> {{< fa angles-right >}} Asks open ended questions, not leading questions <br> {{< fa angles-right >}} Embraces the silent space |
+| Move at the speed of trust \| Muévete a la velocidad de la confianza | Build mutual respect and understanding by meeting people where they are, investing in relationships with intention and patience, and recognizing that collaborative processes are nonlinear | {{< fa angles-right >}} Is transparent and authentic about realistic process and outcomes, and follows through on commitments <br> {{< fa angles-right >}} Holds a safe space and facilitates continual engagement <br> {{< fa angles-right >}} Recognized and embraces nonlinear nature of the work including forward and backward steps |
+| Embrace complexity \| Abraza la complejidad | Sit with uncertainty and discomfort, avoid quick fixes, and create space for thoughtful sense-making before acting | {{< fa angles-right >}} Builds comfort with the mess and avoids the quick fix <br> {{< fa angles-right >}} Creates opportunities for sense making before decision making |
+| Work to transform power \| Trabaja para transformar el poder | Reflect on system dynamics, co-create ways to shift imbalances, and design spaces that share power rather than concentrate it | {{< fa angles-right >}} Creates spaces and structures that distribute power rather than concentrate it <br> {{< fa angles-right >}} Pauses to reflect on team and system dynamics, and personal power and influence |
+| Build capacity in others \| Potencia las habilidades de otros | Share knowledge openly, co-create goals and agreements, and mentor and support others to strengthen collective leadership | {{< fa angles-right >}} Practices transparency and non-attachment when sharing with collaborators <br> {{< fa angles-right >}} Engages others in designing processes and solutions, building shared ownership <br> {{< fa angles-right >}} Shares instead of sells. Shares as an opportunity to learn with our team <br> {{< fa angles-right >}} Invests in next generation leaders and offers mentorship and support |
+
+:::
 
 ### {{< fa square-poll-vertical >}} Results
 
 | Competency | Description | Performance Indicators |
-|:---|:-----------------|:--------------------|
+|:-------|:-----------------|:--------------------|
 | x | X | {{< fa angles-right >}} <br> {{< fa angles-right >}} |
