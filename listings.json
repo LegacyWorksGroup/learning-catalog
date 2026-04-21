@@ -2,8 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
+      "/content/lead-collabs_community-engagement.html",
+      "/content/lead-collabs_success-design.html",
       "/content/inclusive-facilitation_meetings.html",
       "/content/inclusive-facilitation_belonging.html",
+      "/content/lead-collabs_facilitative-leadership.html",
       "/content/proj-planning-mgt_project-execution.html",
       "/content/proj-planning-mgt_project-design.html",
       "/content/inclusive-facilitation_decision-making.html"
