@@ -6,33 +6,33 @@ This page--at time of writing--is not rendered in the website. However, it is a 
 
 ## Value Tags
 
-"Practice Entrepreneurialism"
-"Exercise Creative Courage"
-"Take Action to Learn"
-"Empathize"
-"Embrace Vulnerability"
-"Work with Adaptability"
+"<span style='color:#0096c7'>Embrace Vulnerability</span>"
+"<span style='color:#0096c7'>Empathize</span>"
+"<span style='color:#0096c7'>Exercise Creative Courage</span>"
+"<span style='color:#0096c7'>Practice Entrepreneurialism</span>"
+"<span style='color:#0096c7'>Take Action to Learn</span>"
+"<span style='color:#0096c7'>Work with Adaptability</span>"
 
 ## Skill Tags
 
-"Bring Vision to Life"
-"Candid Communication"
-"Distributed Leadership"
-"Systems Thinking & Synthesis"
-"Progressive Technology"
+"<span style='color:#ff9500'>Bring Vision to Life</span>"
+"<span style='color:#ff9500'>Candid Communication</span>"
+"<span style='color:#ff9500'>Distributed Leadership</span>"
+"<span style='color:#ff9500'>Progressive Technology</span>"
+"<span style='color:#ff9500'>Systems Thinking & Synthesis</span>"
 
 ## Stewardship Tags
 
-"Active Listening"
-"Move at the Speed of Trust"
-"Embrace Complexity"
-"Work to Transform Power"
-"Build Capacity in Others"
+"<span style='color:#55a630'>Active Listening</span>"
+"<span style='color:#55a630'>Move at the Speed of Trust</span>"
+"<span style='color:#55a630'>Embrace Complexity</span>"
+"<span style='color:#55a630'>Work to Transform Power</span>"
+"<span style='color:#55a630'>Build Capacity in Others</span>"
 
 ## Results Tags
 
-"Deliver High Quality Results"
-"Drive Cycles of Continuous Improvement and Evolution"
-"Tell the Story"
-"Ensure Belonging Access and Opportunity"
-"Achieve Progress Towards Goals Mission and Vision"
+"<span style='color:#7b2cbf'>Achieve Progress Towards Goals Mission and Vision</span>"
+"<span style='color:#7b2cbf'>Deliver High Quality Results</span>"
+"<span style='color:#7b2cbf'>Drive Cycles of Continuous Improvement and Evolution</span>"
+"<span style='color:#7b2cbf'>Ensure Belonging Access and Opportunity</span>"
+"<span style='color:#7b2cbf'>Tell the Story</span>"
