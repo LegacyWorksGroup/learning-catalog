@@ -1,0 +1,16 @@
+---
+title: "Specific Lesson Name"
+author: "Series Name"
+description: "First sentence of introduction on respective homepage"
+categories: ["Tags taken *exactly* from following file: '_maintain/competency-tags'"]
+---
+
+## Session Materials
+
+To visit this session's materials, click [here](link to respective lesson page) or see below.
+
+```{=html}
+<iframe src="link to respective lesson page" height="550" width="800" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
