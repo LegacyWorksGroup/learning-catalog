@@ -24,10 +24,10 @@ This page--at time of writing--is not rendered in the website. However, it is a 
 ## Stewardship Tags
 
 "<span style='color:#55a630'>Active Listening</span>"
-"<span style='color:#55a630'>Move at the Speed of Trust</span>"
-"<span style='color:#55a630'>Embrace Complexity</span>"
-"<span style='color:#55a630'>Work to Transform Power</span>"
 "<span style='color:#55a630'>Build Capacity in Others</span>"
+"<span style='color:#55a630'>Embrace Complexity</span>"
+"<span style='color:#55a630'>Move at the Speed of Trust</span>"
+"<span style='color:#55a630'>Work to Transform Power</span>"
 
 ## Results Tags
 
