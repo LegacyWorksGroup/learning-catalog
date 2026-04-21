@@ -1,7 +1,8 @@
 ---
 title: "Core Competencies Catalog"
 listing:
-  contents: "content/*.qmd"
+  contents: 
+    - "content/*.qmd"
   type: default
   sort: 
     - "author asc"
