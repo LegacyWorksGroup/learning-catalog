@@ -1,0 +1,16 @@
+---
+title: "Understanding Your Team: Thinking and Working Styles, Working Agreements"
+author: "Interpersonal Communication"
+description: "This session will unpack what makes you and your colleagues tick and the implications for how your team works together"
+categories: ["TBD"]
+---
+
+## Session Materials
+
+To visit this session's materials, click [here](https://legacyworksgroup.github.io/interpersonal-comm/content/understanding.html) or see below.
+
+```{=html}
+<iframe src="https://legacyworksgroup.github.io/interpersonal-comm/content/understanding.html" height="550" width="800" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
