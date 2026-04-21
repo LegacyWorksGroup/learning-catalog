@@ -1,0 +1,16 @@
+---
+title: "Designing a Collaborative or Network for Success"
+author: "Designing & Leading Collaboratives and Networks Series"
+description: "Description TBD"
+categories: ["TBD"]
+---
+
+## Session Materials
+
+To visit this session's materials, click [here](https://legacyworksgroup.github.io/lead-collabs/content/success-design.html) or see below.
+
+```{=html}
+<iframe src="https://legacyworksgroup.github.io/lead-collabs/content/success-design.html" height="550" width="800" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
