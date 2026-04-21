@@ -9,7 +9,7 @@ categories: [
     "<span style='color:#55a630'>Embrace Complexity</span>",
     "<span style='color:#55a630'>Work to Transform Power</span>",
     "<span style='color:#55a630'>Build Capacity in Others</span>",
-    "Deliver High Quality Results"
+    "<span style='color:#7b2cbf'>Deliver High Quality Results</span>"
     ]
 ---
  

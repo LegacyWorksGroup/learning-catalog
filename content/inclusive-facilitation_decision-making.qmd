@@ -2,7 +2,20 @@
 title: "Tools and Practices to Support Group Decision Making"
 author: "Inclusive Facilitation Series"
 description: "Rrecognize the stages of participatory decision making and the type of thinking (divergent, emergent, or convergent) required for each stage"
-categories: ["Practice Entrepreneurialism", "Work with Adaptability", "Distributed Leadership", "Systems Thinking & Synthesis", "Active Listening", "Move at the Speed of Trust", "Embrace Complexity", "Work to Transform Power", "Build Capacity in Others", "Deliver High Quality Results", "Drive Cycles of Continuous Improvement and Evolution", "Achieve Progress Towards Goals Mission and Vision"]
+categories: [
+    "<span style='color:#0096c7'>Practice Entrepreneurialism</span>",
+    "<span style='color:#0096c7'>Work with Adaptability</span>", 
+    "<span style='color:#ff9500'>Distributed Leadership</span>", 
+    "<span style='color:#ff9500'>Systems Thinking & Synthesis</span>", 
+    "<span style='color:#55a630'>Active Listening</span>",
+    "<span style='color:#55a630'>Build Capacity in Others</span>",
+    "<span style='color:#55a630'>Embrace Complexity</span>",
+    "<span style='color:#55a630'>Move at the Speed of Trust</span>", 
+    "<span style='color:#55a630'>Work to Transform Power</span>", 
+    "<span style='color:#7b2cbf'>Achieve Progress Towards Goals Mission and Vision</span>",
+    "<span style='color:#7b2cbf'>Deliver High Quality Results</span>",
+    "<span style='color:#7b2cbf'>Drive Cycles of Continuous Improvement and Evolution</span>"
+    ]
 ---
 
 ## Session Materials
