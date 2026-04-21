@@ -12,7 +12,9 @@ page-layout: full
 
 <img src="content/images/logo_lwg-long.png" alt="Logo for LegacyWorks Group" width="30%" align="right"/>
 
-Use this page to search for which currently-available trainings leverage the selected Core Competencies.
+Use this page to search for which currently-available trainings leverage the selected core competencies. To narrow your seach, simply click the core competency of interest in the sidebar on the right of the screen and the list of trainings will be reduced to only those that incorporate the specified competency.
+
+If you need a refresher on which of the four categories ({{< fa heart >}} Values, {{< fa wand-magic-sparkles >}} Skills, {{< fa hand-holding-heart >}} Stewardship, and {{< fa square-poll-vertical >}} Results) each core competency falls into, or performance indicators for a specific core competency, check out the [glossary](https://legacyworksgroup.github.io/learning-catalog/glossary.html) (also accessible from the sidebar on the left of this screen).
 
 <br>
 
