@@ -1,0 +1,16 @@
+---
+title: "Project Selection & Design"
+author: "Project Planning & Management Series"
+description: "This session will prepare participants to evaluate potential LWG projects and assess their fit using the project rubric and theory of change. "
+categories: ["TBD"]
+---
+
+## Session Materials
+
+To visit this session's materials, click [here](https://legacyworksgroup.github.io/proj-planning-mgt/content/project-design.html) or see below.
+
+```{=html}
+<iframe src="https://legacyworksgroup.github.io/proj-planning-mgt/content/project-design.html" height="550" width="800" style="border: 1px solid #2e3846;"></iframe>
+```
+
+
