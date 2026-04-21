@@ -6,33 +6,33 @@ This page--at time of writing--is not rendered in the website. However, it is a 
 
 ## Value Tags
 
-"Values: Practice Entrepreneurialism"
-"Values: Exercise Creative Courage"
-"Values: Take Action to Learn"
-"Values: Empathize"
-"Values: Embrace Vulnerability"
-"Values: Work with Adaptability"
+"Practice Entrepreneurialism"
+"Exercise Creative Courage"
+"Take Action to Learn"
+"Empathize"
+"Embrace Vulnerability"
+"Work with Adaptability"
 
 ## Skill Tags
 
-"Skills: Bring Vision to Life"
-"Skills: Candid Communication"
-"Skills: Distributed Leadership"
-"Skills: Systems Thinking & Synthesis"
-"Skills: Progressive Technology"
+"Bring Vision to Life"
+"Candid Communication"
+"Distributed Leadership"
+"Systems Thinking & Synthesis"
+"Progressive Technology"
 
 ## Stewardship Tags
 
-"Stewardship: Active Listening"
-"Stewardship: Move at the Speed of Trust"
-"Stewardship: Embrace Complexity"
-"Stewardship: Work to Transform Power"
-"Stewardship: Build Capacity in Others"
+"Active Listening"
+"Move at the Speed of Trust"
+"Embrace Complexity"
+"Work to Transform Power"
+"Build Capacity in Others"
 
 ## Results Tags
 
-"Results: Deliver High Quality Results"
-"Results: Drive Cycles of Continuous Improvement and Evolution"
-"Results: Tell the Story"
-"Results: Ensure Belonging Access and Opportunity"
-"Results: Achieve Progress Towards Goals Mission and Vision"
+"Deliver High Quality Results"
+"Drive Cycles of Continuous Improvement and Evolution"
+"Tell the Story"
+"Ensure Belonging Access and Opportunity"
+"Achieve Progress Towards Goals Mission and Vision"
