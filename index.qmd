@@ -3,10 +3,14 @@ title: "Core Competencies Catalog"
 listing:
   contents: "content/*.qmd"
   type: default
+  sort: 
+    - "author asc"
+    - "title asc"
   fields: [title, subtitle, author]
-  categories: true
+  categories: numbered
   sort-ui: true
   filter-ui: true
+  page-size: 25
 page-layout: full
 ---
 
