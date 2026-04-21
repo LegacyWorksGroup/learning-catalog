@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/content/storytelling_strategy.html",
       "/content/lead-collabs_community-engagement.html",
       "/content/lead-collabs_success-design.html",
       "/content/inclusive-facilitation_meetings.html",
@@ -9,6 +10,8 @@
       "/content/lead-collabs_facilitative-leadership.html",
       "/content/proj-planning-mgt_project-execution.html",
       "/content/proj-planning-mgt_project-design.html",
+      "/content/storytelling_basics.html",
+      "/content/storytelling_impact.html",
       "/content/inclusive-facilitation_decision-making.html"
     ]
   }
