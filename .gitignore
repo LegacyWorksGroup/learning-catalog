@@ -59,6 +59,9 @@ rsconnect/
 ~$*.xlsx
 ~$*.docx
 
+# Jupyter Notebooks
+**/*.quarto_ipynb
+
 # Folders to ignore
 /.quarto/
 docs/
