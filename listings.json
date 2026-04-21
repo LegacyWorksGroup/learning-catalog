@@ -2,20 +2,20 @@
   {
     "listing": "/index.html",
     "items": [
-      "/content/interpersonal-comm_courage.html",
-      "/content/storytelling_strategy.html",
       "/content/lead-collabs_community-engagement.html",
       "/content/lead-collabs_success-design.html",
+      "/content/lead-collabs_facilitative-leadership.html",
       "/content/inclusive-facilitation_meetings.html",
       "/content/inclusive-facilitation_belonging.html",
-      "/content/lead-collabs_facilitative-leadership.html",
+      "/content/inclusive-facilitation_decision-making.html",
+      "/content/interpersonal-comm_courage.html",
       "/content/interpersonal-comm_navigate-conflict.html",
+      "/content/interpersonal-comm_understanding.html",
       "/content/proj-planning-mgt_project-execution.html",
       "/content/proj-planning-mgt_project-design.html",
+      "/content/storytelling_strategy.html",
       "/content/storytelling_basics.html",
-      "/content/storytelling_impact.html",
-      "/content/inclusive-facilitation_decision-making.html",
-      "/content/interpersonal-comm_understanding.html"
+      "/content/storytelling_impact.html"
     ]
   }
 ]
