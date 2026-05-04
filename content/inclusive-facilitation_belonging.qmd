@@ -5,6 +5,7 @@ description: "Explore the benefits of inclusive facilitation and develop partici
 categories:
     - "Embrace Vulnerability"
     - "Empathize"
+    - "Ensure belonging, access and opportunity"
     - "Build Capacity in Others"
     - "Embrace Complexity"
     - "Move at the Speed of Trust"

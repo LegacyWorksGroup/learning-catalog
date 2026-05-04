@@ -5,10 +5,10 @@ description: "Demonstrate a set of “Liberating Structures” for engaging, eff
 categories:
     - "Work with Adaptability"
     - "Active Listening"
-    - "Move at the Speed of Trust"
-    - "Embrace Complexity"
-    - "Work to Transform Power"
     - "Build Capacity in Others"
+    - "Embrace Complexity"
+    - "Move at the Speed of Trust"
+    - "Work to Transform Power"
     - "Deliver High Quality Results"
 ---
  
