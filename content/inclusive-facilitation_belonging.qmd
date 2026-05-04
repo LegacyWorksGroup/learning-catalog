@@ -17,20 +17,6 @@ format:
     title-block-categories: false
 ---
 
-_Competency category legend: [Values = {{< fa heart >}}]{.cc-value} | [Skills = {{< fa wand-magic-sparkles >}}]{.cc-skill} | [Stewardship = {{< fa hand-holding-heart >}}]{.cc-steward} | [Results = {{< fa square-poll-vertical >}}]{.cc-result}_
-
-[Embrace Vulnerability]{.cc-value-button} [Empathize]{.cc-value-button} [Build Capacity in Others]{.cc-steward-button} [Embrace Complexity]{.cc-steward-button} 
-
-[Move at the Speed of Trust]{.cc-steward-button} [Work to Transform Power]{.cc-steward-button} [Deliver High Quality Results]{.cc-result-button} 
-
-[Drive Cycles of Continuous Improvement and Evolution]{.cc-result-button}
-
-[Ensure Belonging Access and Opportunity]{.cc-result-button}
-
-<br> 
-
-### Session Materials
-
 To visit this session's materials, click [here](https://legacyworksgroup.github.io/inclusive-facilitation/content/belonging.html) or see below.
 
 ```{=html}
