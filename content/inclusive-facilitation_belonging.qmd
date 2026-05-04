@@ -2,7 +2,16 @@
 title: "Facilitation Practices to Support Access, Inclusion, & Belonging"
 author: "Inclusive Facilitation Series"
 description: "Explore the benefits of inclusive facilitation and develop participants’ comfort and skill in facilitating virtual and in person sessions that engage people across differences"
-categories: ["Embrace Vulnerability", "Empathize", "Build Capacity in Others", "Embrace Complexity", "Move at the Speed of Trust", "Work to Transform Power", "Deliver High Quality Results", "Drive Cycles of Continuous Improvement and Evolution", "Ensure Belonging Access and Opportunity"]
+categories:
+    - "Embrace Vulnerability"
+    - "Empathize"
+    - "Build Capacity in Others"
+    - "Embrace Complexity"
+    - "Move at the Speed of Trust"
+    - "Work to Transform Power"
+    - "Deliver High Quality Results"
+    - "Drive Cycles of Continuous Improvement and Evolution"
+    - "Ensure Belonging Access and Opportunity"
 ---
 
 ## Session Materials

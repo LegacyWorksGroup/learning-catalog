@@ -2,7 +2,14 @@
 title: "Designing and Facilitating Engaging and Effective Meetings"
 author: "Inclusive Facilitation Series"
 description: "Demonstrate a set of “Liberating Structures” for engaging, effective group meetings."
-categories: ["Work with Adaptability", "Active Listening", "Move at the Speed of Trust", "Embrace Complexity", "Work to Transform Power", "Build Capacity in Others", "Deliver High Quality Results"]
+categories:
+    - "Work with Adaptability"
+    - "Active Listening"
+    - "Move at the Speed of Trust"
+    - "Embrace Complexity"
+    - "Work to Transform Power"
+    - "Build Capacity in Others"
+    - "Deliver High Quality Results"
 ---
  
 ## Session Materials 
