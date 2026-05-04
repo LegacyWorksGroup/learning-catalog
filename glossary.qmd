@@ -2,10 +2,10 @@
 title: "Core Competencies Glossary"
 ---
 
-All core competencies can be assigned into one of four categories: {{< fa heart >}} **Values**, {{< fa wand-magic-sparkles >}} **Skills**, {{< fa hand-holding-heart >}} **Stewardship**, and {{< fa square-poll-vertical >}} **Results**. Click the relevant tab below for more details on the competencies within each category.
+All core competencies can be assigned into one of four categories: <span style='color:#0096c7'>{{< fa heart >}} **Values**</span>, <span style='color:#ff9500'>{{< fa wand-magic-sparkles >}} **Skills**</span>, <span style='color:#55a630'>{{< fa hand-holding-heart >}} **Stewardship**</span>, and <span style='color:#7b2cbf'>{{< fa square-poll-vertical >}} **Results**</span>. Click the relevant tab below for more details on the competencies within each category.
 
 :::{.panel-tabset}
-### {{< fa heart >}} Values | Valores
+### <span style='color:#0096c7'>{{< fa heart >}} Values | Valores</span>
 
 | Competency | Description | Performance Indicators |
 |:-------|:-----------------|:--------------------|
@@ -15,7 +15,7 @@ All core competencies can be assigned into one of four categories: {{< fa heart 
 | Embrace vulnerability | Step into uncertainty with openness, ask for support and feedback, and own your learning and growth with honesty and courage | {{< fa angles-right >}} Seeks help, feedback and collaboration <br> {{< fa angles-right >}} Owns where they are and what they need to learn |
 | Work with adaptability | Embrace change, pivot with intention, and stay open to evolving paths and outcomes | {{< fa angles-right >}} Shows an ability and willingness to pivot and course correct, and stay open to what the process and results look like |
 
-### {{< fa wand-magic-sparkles >}} Skills | Habilidades
+### <span style='color:#ff9500'>{{< fa wand-magic-sparkles >}} Skills | Habilidades</span>
 
 | Competency | Description | Performance Indicators |
 |:-------|:-----------------|:--------------------|
@@ -25,7 +25,7 @@ All core competencies can be assigned into one of four categories: {{< fa heart 
 | Systems Thinking & Synthesis \| Pensamiento sistémico y síntesis | Seek diverse perspectives, connect insights across sources, and generate questions and conclusions to understand how systems work. | {{< fa angles-right >}} Identifies patterns and root causes by questioning assumptions and analyzing complex problems across systems <br> {{< fa angles-right >}} Transforms complexity into clarity by integrating diverse data and perspectives into actionable insights and decisions |
 | Progressive technology \| Tecnología progresiva | Profficient in utilizing various technological tools and platforms, both current and emergent | {{< fa angles-right >}} Open to learning and exploring new technological tools, systems, and processes <br> {{< fa angles-right >}} Utilizes technological tools and platforms efficiently and effectively to fulfill the objectives at hand |
 
-### {{< fa hand-holding-heart >}} Stewardship | Fortalecimiento
+### <span style='color:#55a630'>{{< fa hand-holding-heart >}} Stewardship | Fortalecimiento</span>
 
 | Competency | Description | Performance Indicators |
 |:-------|:-----------------|:--------------------|
@@ -35,7 +35,7 @@ All core competencies can be assigned into one of four categories: {{< fa heart 
 | Work to transform power \| Trabaja para transformar el poder | Reflect on system dynamics, co-create ways to shift imbalances, and design spaces that share power rather than concentrate it | {{< fa angles-right >}} Creates spaces and structures that distribute power rather than concentrate it <br> {{< fa angles-right >}} Pauses to reflect on team and system dynamics, and personal power and influence |
 | Build capacity in others \| Potencia las habilidades de otros | Share knowledge openly, co-create goals and agreements, and mentor and support others to strengthen collective leadership | {{< fa angles-right >}} Practices transparency and non-attachment when sharing with collaborators <br> {{< fa angles-right >}} Shares instead of sells. Shares as an opportunity to learn with our team <br> {{< fa angles-right >}} Invests in next generation leaders and offers mentorship and support |
 
-### {{< fa square-poll-vertical >}} Results | Resultados
+### <span style='color:#7b2cbf'>{{< fa square-poll-vertical >}} Results | Resultados</span>
 
 | Competency | Description | Performance Indicators |
 |:-------|:-----------------|:--------------------|

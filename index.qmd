@@ -17,9 +17,8 @@ page-layout: full
 
 <img src="content/images/logo_lwg-long.png" alt="Logo for LegacyWorks Group" width="30%" align="right"/>
 
-Use this page to search for which currently-available trainings leverage the selected core competencies. To narrow your seach, simply click the core competency of interest in the sidebar on the right of the screen and the list of trainings will be reduced to only those that incorporate the specified competency.
+Use this page to search for which currently-available trainings leverage the selected core competencies. **To narrow your seach, simply click the core competency of interest in the sidebar on the right of the screen and the list of trainings will be reduced to only those that strengthen the specified competency.** Note that the core competencies are divided into four color-coded categories: <span style='color:#0096c7'>{{< fa heart >}} **Values**</span>, <span style='color:#ff9500'>{{< fa wand-magic-sparkles >}} **Skills**</span>, <span style='color:#55a630'>{{< fa hand-holding-heart >}} **Stewardship**</span>, and <span style='color:#7b2cbf'>{{< fa square-poll-vertical >}} **Results**</span>. 
 
-If you need a refresher on which of the four categories ({{< fa heart >}} Values, {{< fa wand-magic-sparkles >}} Skills, {{< fa hand-holding-heart >}} Stewardship, and {{< fa square-poll-vertical >}} Results) each core competency falls into, or performance indicators for a specific core competency, check out the [glossary](https://legacyworksgroup.github.io/learning-catalog/glossary.html) (also accessible from the sidebar on the left of this screen).
+For more information on the core competencies (including specific performance indicators for each), please feel free to explore the glossary included in this website by clicking "Glossary" in the sidebar on the left of this screen.
 
 <br>
-
