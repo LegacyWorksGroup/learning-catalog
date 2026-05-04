@@ -2,10 +2,12 @@
 title: "Planning for and Navigating Conflict"
 author: "Interpersonal Communication"
 description: "In this session we will normalize conflict as a natural part of human interaction and adopt a proactive approach to preparing for it within our teams."
-categories: ["TBD"]
+categories:
+    - TBD
+format:
+  html:
+    title-block-categories: false
 ---
-
-## Session Materials
 
 To visit this session's materials, click [here](https://legacyworksgroup.github.io/interpersonal-comm/content/navigate-conflict.html) or see below.
 

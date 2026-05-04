@@ -2,10 +2,12 @@
 title: "Clear Communication, Courageous Conversations"
 author: "Interpersonal Communication"
 description: "This session is designed to strengthen participants’ communication skills and build capacity to engage in candid, sometimes difficult conversations about sensitive topics or conflicts with clarity, empathy, and effectiveness."
-categories: ["TBD"]
+categories:
+    - TBD
+format:
+  html:
+    title-block-categories: false
 ---
-
-## Session Materials
 
 To visit this session's materials, click [here](https://legacyworksgroup.github.io/interpersonal-comm/content/courage.html) or see below.
 
