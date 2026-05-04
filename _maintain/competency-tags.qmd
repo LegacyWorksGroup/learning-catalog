@@ -6,32 +6,32 @@ This page--at time of writing--is not rendered in the website. However, it is a 
 
 ## Value Tags
 
-"Embrace Vulnerability"
-"Empathize"
-"Exercise Creative Courage"
-"Take Action to Learn"
-"Work with Adaptability"
+"Embrace Vulnerability" // <span style='color:#0096c7'>Embrace Vulnerability</span>
+"Empathize" // <span style='color:#0096c7'>Empathize</span>
+"Exercise Creative Courage" // <span style='color:#0096c7'>Exercise Creative Courage</span>
+"Take Action to Learn" // <span style='color:#0096c7'>Take Action to Learn</span>
+"Work with Adaptability" // <span style='color:#0096c7'>Work with Adaptability</span>
 
 ## Skill Tags
 
-"Bring Vision to Life"
-"Candid Communication"
-"Distributed Leadership"
-"Progressive Technology"
-"Systems Thinking & Synthesis"
+"Bring Vision to Life" // <span style='color:#ff9500'>Bring Vision to Life</span>
+"Candid Communication" // <span style='color:#ff9500'>Candid Communication</span>
+"Distributed Leadership" // <span style='color:#ff9500'>Distributed Leadership</span>
+"Progressive Technology" // <span style='color:#ff9500'>Progressive Technology</span>
+"Systems Thinking & Synthesis" // <span style='color:#ff9500'>Systems Thinking & Synthesis</span>
 
 ## Stewardship Tags
 
-"Active Listening"
-"Build Capacity in Others"
-"Embrace Complexity"
-"Move at the Speed of Trust"
-"Work to Transform Power"
+"Active Listening" // <span style='color:#55a630'>Active Listening</span>
+"Build Capacity in Others" // <span style='color:#55a630'>Build Capacity in Others</span>
+"Embrace Complexity" // <span style='color:#55a630'>Embrace Complexity</span>
+"Move at the Speed of Trust" // <span style='color:#55a630'>Move at the Speed of Trust</span>
+"Work to Transform Power" // <span style='color:#55a630'>Work to Transform Power</span>
 
 ## Results Tags
 
-"Achieve Progress Towards Goals Mission and Vision"
-"Deliver High Quality Results"
-"Drive Cycles of Continuous Improvement and Evolution"
-"Ensure Belonging Access and Opportunity"
-"Tell the Story"
+"Achieve Progress Towards Goals Mission and Vision" // <span style='color:#7b2cbf'>Achieve Progress Towards Goals Mission and Vision</span>
+"Deliver High Quality Results" // <span style='color:#7b2cbf'>Deliver High Quality Results</span>
+"Drive Cycles of Continuous Improvement and Evolution" // <span style='color:#7b2cbf'>Drive Cycles of Continuous Improvement and Evolution</span>
+"Ensure Belonging Access and Opportunity" // <span style='color:#7b2cbf'>Ensure Belonging Access and Opportunity</span>
+"Tell the Story" // <span style='color:#7b2cbf'>Tell the Story</span>
