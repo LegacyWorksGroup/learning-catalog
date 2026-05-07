@@ -3,7 +3,10 @@ title: "Project Management & Execution"
 author: "Project Planning & Management Series"
 description: "This session will be all about delivering high quality results efficiently and effectively through excellent project management and team work."
 categories:
-    - TBD
+    - <span style='color:#0096c7'>Work with Adaptability</span>
+    - <span style='color:#ff9500'>Progressive Technology</span>
+    - <span style='color:#7b2cbf'>Deliver High Quality Results</span>
+    - <span style='color:#7b2cbf'>Drive Cycles of Continuous Improvement and Evolution</span>
 format:
   html:
     title-block-categories: false

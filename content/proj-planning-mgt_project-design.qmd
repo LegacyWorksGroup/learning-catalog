@@ -3,7 +3,9 @@ title: "Project Selection & Design"
 author: "Project Planning & Management Series"
 description: "This session will prepare participants to evaluate potential LWG projects and assess their fit using the project rubric and theory of change. "
 categories:
-    - TBD
+    - <span style='color:#ff9500'>Bring Vision to Life</span>
+    - <span style='color:#55a630'>Build Capacity in Others</span>
+    - <span style='color:#7b2cbf'>Achieve Progress Towards Goals Mission and Vision</span>
 format:
   html:
     title-block-categories: false
