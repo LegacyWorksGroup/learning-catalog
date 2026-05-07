@@ -3,7 +3,13 @@ title: "Planning for and Navigating Conflict"
 author: "Interpersonal Communication"
 description: "In this session we will normalize conflict as a natural part of human interaction and adopt a proactive approach to preparing for it within our teams."
 categories:
-    - TBD
+    - <span style='color:#0096c7'>Embrace Vulnerability</span>
+    - <span style='color:#0096c7'>Exercise Creative Courage</span>
+    - <span style='color:#ff9500'>Candid Communication</span>
+    - <span style='color:#55a630'>Active Listening</span>
+    - <span style='color:#55a630'>Embrace Complexity</span>
+    - <span style='color:#55a630'>Move at the Speed of Trust</span>
+    - <span style='color:#7b2cbf'>Drive Cycles of Continuous Improvement and Evolution</span>
 format:
   html:
     title-block-categories: false

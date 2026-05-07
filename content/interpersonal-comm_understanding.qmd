@@ -3,7 +3,11 @@ title: "Understanding Your Team: Thinking and Working Styles, Working Agreements
 author: "Interpersonal Communication"
 description: "This session will unpack what makes you and your colleagues tick and the implications for how your team works together"
 categories:
-    - TBD
+    - <span style='color:#0096c7'>Embrace Vulnerability</span>
+    - <span style='color:#0096c7'>Empathize</span>
+    - <span style='color:#ff9500'>Bring Vision to Life</span>
+    - <span style='color:#55a630'>Move at the Speed of Trust</span>
+    - <span style='color:#55a630'>Work to Transform Power</span>
 format:
   html:
     title-block-categories: false

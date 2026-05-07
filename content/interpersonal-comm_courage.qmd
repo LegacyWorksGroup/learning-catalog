@@ -3,7 +3,16 @@ title: "Clear Communication, Courageous Conversations"
 author: "Interpersonal Communication"
 description: "This session is designed to strengthen participants’ communication skills and build capacity to engage in candid, sometimes difficult conversations about sensitive topics or conflicts with clarity, empathy, and effectiveness."
 categories:
-    - TBD
+    - <span style='color:#0096c7'>Embrace Vulnerability</span>
+    - <span style='color:#0096c7'>Empathize</span>
+    - <span style='color:#0096c7'>Exercise Creative Courage</span>
+    - <span style='color:#0096c7'>Take Action to Learn</span>
+    - <span style='color:#ff9500'>Candid Communication</span>
+    - <span style='color:#55a630'>Active Listening</span>
+    - <span style='color:#55a630'>Embrace Complexity</span>
+    - <span style='color:#55a630'>Move at the Speed of Trust</span>
+    - <span style='color:#55a630'>Work to Transform Power</span>
+    - <span style='color:#7b2cbf'>Drive Cycles of Continuous Improvement and Evolution</span>
 format:
   html:
     title-block-categories: false
