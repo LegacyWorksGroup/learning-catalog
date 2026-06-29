@@ -1,45 +1,53 @@
 ---
 title: "Language Accessibility"
+lightbox: true
 ---
 
-## _En un navegador web de Google:_ | In a Google web browser:
+## _Cómo traducir idiomas_ | How to Translate Language
 
 :::{.panel-tabset}
-### Cómo traducir idiomas
+### En un navegador web de Google
 
 1. En la esquina superior derecha de la página web, haz clic en los tres puntos junto a {{< fa angles-left >}}Finalizar actualización{{< fa angles-right >}}. Haz clic en {{< fa angles-left >}}Traducir{{< fa angles-right >}}.
 
+![](images/translate/google-01.png){fig-alt="Screenshot of Google Chrome settings window open with the 'Translate' option three-quarters of the way to the bottom outlined in a red square" fig-align="center" width="30%"}
 
 2. Seleccione un idioma. Haga clic en los tres puntos si necesita seleccionar un idioma nuevo.
 
+![](images/translate/google-02.png){fig-alt="Screenshot of Google Chrome language choice contextual window set to 'Spanish'" fig-align="center" width="80%"}
 
-### How to Translate Language
-
+### In a Google web browser:
 
 1. In the top right corner of the webpage, click on the three dots next to “Finish update”. Click on “Translate”. 
 
+![](images/translate/google-01.png){fig-alt="Screenshot of Google Chrome settings window open with the 'Translate' option three-quarters of the way to the bottom outlined in a red square" fig-align="center" width="30%"}
 
 2. Select a language. Click on the three dots if you need to select a new language. 
 
+![](images/translate/google-02.png){fig-alt="Screenshot of Google Chrome language choice contextual window set to 'Spanish'" fig-align="center" width="80%"}
+
 :::
 
-## _En las grabaciones de la comunidad de práctica:_ | In our Community of Practice recordings:
-
 :::{.panel-tabset}
-### Cómo traducir idiomas
+### En las grabaciones de la comunidad de práctica
 
 1. Haz clic en el icono de Configuración. Haz clic en {{< fa angles-left >}}CC/Subtítulos{{< fa angles-right >}} {{< fa arrow-right >}} Selecciona tu idioma.
 
+![](images/translate/cop-01.png){fig-alt="Screenshot of Vimeo playback window with the Settings gear circled in red and the 'CC/subtitles' option set to Spanish in a red rectangle" fig-align="center" width="80%"}
 
 2. Asegúrate de activar los subtítulos.
 
-### How to Translate Language
+![](images/translate/cop-02.png){fig-alt="Screenshot of Vimeo playback window where the 'CC' button is activated" fig-align="center" width="50%"}
+
+###  In our Community of Practice recordings:
 
 1. Click on the Settings icon. Click on “CC/Subtitles” {{< fa arrow-right >}} Select your language. 
 
+![](images/translate/cop-01.png){fig-alt="Screenshot of Vimeo playback window with the Settings gear circled in red and the 'CC/subtitles' option set to Spanish in a red rectangle" fig-align="center" width="80%"}
 
 2. Ensure captions/subtitles are turned on.
 
+![](images/translate/cop-02.png){fig-alt="Screenshot of Vimeo playback window where the 'CC' button is activated" fig-align="center" width="50%"}
 
 :::
 
