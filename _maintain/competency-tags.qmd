@@ -31,7 +31,8 @@ This page--at time of writing--is not rendered in the website. However, it is a 
 ## Results Tags
 
 "Achieve Progress Towards Goals Mission and Vision" // <span style='color:#7b2cbf'>Achieve Progress Towards Goals Mission and Vision</span>
+"Cultivate Leadership" // <span style='color:#7b2cbf'>Cultivate Leadership</span>
 "Deliver High Quality Results" // <span style='color:#7b2cbf'>Deliver High Quality Results</span>
 "Drive Cycles of Continuous Improvement and Evolution" // <span style='color:#7b2cbf'>Drive Cycles of Continuous Improvement and Evolution</span>
 "Ensure Belonging Access and Opportunity" // <span style='color:#7b2cbf'>Ensure Belonging Access and Opportunity</span>
-"Tell the Story" // <span style='color:#7b2cbf'>Tell the Story</span>
+"Share the Story" // <span style='color:#7b2cbf'>Share the Story</span>
