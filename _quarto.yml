@@ -24,10 +24,14 @@ website:
     collapse-level: 2
     style: docked
     contents:
-      - text: "Searchable Catalog"
+      - text: "**Searchable Catalog**"
         href: index.qmd
-      - text: "Glossary"
-        href: glossary.qmd
+      - section: "Other Resources"
+        contents: 
+          - text: "Language Accessibility"
+            href: translate.qmd
+          - text: "Competency Glossary"
+            href: glossary.qmd
   page-footer: 
     center: "&copy; 2026, LegacyWorks Group (Loop: [{{< fa arrows-spin >}}](https://sites.google.com/legacyworksgroup.com/legacy-loop/legacyloop))"
     background: secondary

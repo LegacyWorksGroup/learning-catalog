@@ -1,0 +1,45 @@
+---
+title: "Language Accessibility"
+---
+
+## _En un navegador web de Google:_ | In a Google web browser:
+
+:::{.panel-tabset}
+### Cómo traducir idiomas
+
+1. En la esquina superior derecha de la página web, haz clic en los tres puntos junto a «Finalizar actualización». Haz clic en «Traducir».
+
+
+2. Seleccione un idioma. Haga clic en los tres puntos si necesita seleccionar un idioma nuevo.
+
+
+### How to Translate Language
+
+
+1. In the top right corner of the webpage, click on the three dots next to “Finish update”. Click on “Translate”. 
+
+
+2. Select a language. Click on the three dots if you need to select a new language. 
+
+:::
+
+## _En las grabaciones de la comunidad de práctica:_ | In our Community of Practice recordings:
+
+:::{.panel-tabset}
+### Cómo traducir idiomas
+
+1. Haz clic en el icono de Configuración. Haz clic en «CC/Subtítulos» > Selecciona tu idioma.
+
+
+2. Asegúrate de activar los subtítulos.
+
+### How to Translate Language
+
+1. Click on the Settings icon. Click on “CC/Subtitles” > Select your language. 
+
+
+2. Ensure captions/subtitles are turned on.
+
+
+:::
+
