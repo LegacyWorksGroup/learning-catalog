@@ -5,12 +5,10 @@ description: "Explore the benefits of inclusive facilitation and develop partici
 categories:
     - <span style='color:#0096c7'>Embrace Vulnerability</span>
     - <span style='color:#0096c7'>Empathize</span>
+    - <span style='color:#ff9500'>Distributed Leadership</span>
     - <span style='color:#55a630'>Build Capacity in Others</span>
-    - <span style='color:#55a630'>Embrace Complexity</span>
     - <span style='color:#55a630'>Move at the Speed of Trust</span>
     - <span style='color:#55a630'>Work to Transform Power</span>
-    - <span style='color:#7b2cbf'>Deliver High Quality Results</span>
-    - <span style='color:#7b2cbf'>Drive Cycles of Continuous Improvement and Evolution</span>
     - <span style='color:#7b2cbf'>Ensure Belonging Access and Opportunity</span>
 format:
   html:
