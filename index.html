@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -38,18 +41,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-de1368b603a85f2518dddf4da3243186.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-1e1f27ce076342d28072342aaea1ff7e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-de1368b603a85f2518dddf4da3243186.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cade0ff4818347d00405ae3540cc32ff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-697f1c5413bb51da2685c6d33f782958.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-cade0ff4818347d00405ae3540cc32ff.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -101,16 +105,10 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -141,7 +139,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar docked nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -164,6 +162,7 @@ window.Quarto = {
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
         if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
           if (alternate) {
             toggle.classList.add("alternate");
           } else {
@@ -193,13 +192,19 @@ window.Quarto = {
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        window.scrollTo(0, 1);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
         setTimeout(() => {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, scrollY);
           manageTransitions("body", true);
         }, 40);
       }
@@ -293,6 +298,7 @@ window.Quarto = {
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -307,15 +313,14 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">LegacyWorks Group Learning Catalog</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -332,17 +337,18 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><strong>Searchable Catalog</strong></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><strong>Searchable Catalog</strong></a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -350,7 +356,7 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto" aria-label="Section">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -361,13 +367,10 @@ window.Quarto = {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Other Resources</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+            <button type="button" class="sidebar-item-text sidebar-item-toggle sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-controls="quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text" id="quarto-sidebar-section-1-label">Other Resources</span><i class="bi bi-chevron-right" aria-hidden="true"></i></button>
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" aria-labelledby="quarto-sidebar-section-1-label" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./translate.html" class="sidebar-item-text sidebar-link">
@@ -391,7 +394,7 @@ window.Quarto = {
         
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtYnJhY2UlMjBWdWxuZXJhYmlsaXR5JTNDJTJGc3BhbiUzRQ=="><span style="color:#0096c7">Embrace Vulnerability</span> <span class="quarto-category-count">(4)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtcGF0aGl6ZSUzQyUyRnNwYW4lM0U="><span style="color:#0096c7">Empathize</span> <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUV4ZXJjaXNlJTIwQ3JlYXRpdmUlMjBDb3VyYWdlJTNDJTJGc3BhbiUzRQ=="><span style="color:#0096c7">Exercise Creative Courage</span> <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRVRha2UlMjBBY3Rpb24lMjB0byUyMExlYXJuJTNDJTJGc3BhbiUzRQ=="><span style="color:#0096c7">Take Action to Learn</span> <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRVdvcmslMjB3aXRoJTIwQWRhcHRhYmlsaXR5JTNDJTJGc3BhbiUzRQ=="><span style="color:#0096c7">Work with Adaptability</span> <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRUFjdGl2ZSUyMExpc3RlbmluZyUzQyUyRnNwYW4lM0U="><span style="color:#55a630">Active Listening</span> <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRUJ1aWxkJTIwQ2FwYWNpdHklMjBpbiUyME90aGVycyUzQyUyRnNwYW4lM0U="><span style="color:#55a630">Build Capacity in Others</span> <span class="quarto-category-count">(3)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRUVtYnJhY2UlMjBDb21wbGV4aXR5JTNDJTJGc3BhbiUzRQ=="><span style="color:#55a630">Embrace Complexity</span> <span class="quarto-category-count">(4)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRU1vdmUlMjBhdCUyMHRoZSUyMFNwZWVkJTIwb2YlMjBUcnVzdCUzQyUyRnNwYW4lM0U="><span style="color:#55a630">Move at the Speed of Trust</span> <span class="quarto-category-count">(5)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRVdvcmslMjB0byUyMFRyYW5zZm9ybSUyMFBvd2VyJTNDJTJGc3BhbiUzRQ=="><span style="color:#55a630">Work to Transform Power</span> <span class="quarto-category-count">(4)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRUFjaGlldmUlMjBQcm9ncmVzcyUyMFRvd2FyZHMlMjBHb2FscyUyME1pc3Npb24lMjBhbmQlMjBWaXNpb24lM0MlMkZzcGFuJTNF"><span style="color:#7b2cbf">Achieve Progress Towards Goals Mission and Vision</span> <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRURlbGl2ZXIlMjBIaWdoJTIwUXVhbGl0eSUyMFJlc3VsdHMlM0MlMkZzcGFuJTNF"><span style="color:#7b2cbf">Deliver High Quality Results</span> <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRURyaXZlJTIwQ3ljbGVzJTIwb2YlMjBDb250aW51b3VzJTIwSW1wcm92ZW1lbnQlMjBhbmQlMjBFdm9sdXRpb24lM0MlMkZzcGFuJTNF"><span style="color:#7b2cbf">Drive Cycles of Continuous Improvement and Evolution</span> <span class="quarto-category-count">(4)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRUVuc3VyZSUyMEJlbG9uZ2luZyUyMEFjY2VzcyUyMGFuZCUyME9wcG9ydHVuaXR5JTNDJTJGc3BhbiUzRQ=="><span style="color:#7b2cbf">Ensure Belonging Access and Opportunity</span> <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRUJyaW5nJTIwVmlzaW9uJTIwdG8lMjBMaWZlJTNDJTJGc3BhbiUzRQ=="><span style="color:#ff9500">Bring Vision to Life</span> <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRUNhbmRpZCUyMENvbW11bmljYXRpb24lM0MlMkZzcGFuJTNF"><span style="color:#ff9500">Candid Communication</span> <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRURpc3RyaWJ1dGVkJTIwTGVhZGVyc2hpcCUzQyUyRnNwYW4lM0U="><span style="color:#ff9500">Distributed Leadership</span> <span class="quarto-category-count">(2)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRVByb2dyZXNzaXZlJTIwVGVjaG5vbG9neSUzQyUyRnNwYW4lM0U="><span style="color:#ff9500">Progressive Technology</span> <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRVN5c3RlbXMlMjBUaGlua2luZyUyMCUyNiUyMFN5bnRoZXNpcyUzQyUyRnNwYW4lM0U="><span style="color:#ff9500">Systems Thinking &amp; Synthesis</span> <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VEJE">TBD <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content" tabindex="-1">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -413,6 +416,7 @@ window.Quarto = {
 </header>
 
 
+<meta name="robots" content="noindex, nofollow">
 <p><img src="content/images/logo_lwg-long.png" alt="Logo for LegacyWorks Group" width="30%" align="right"></p>
 <p>Use this page to search for which currently-available trainings leverage the selected core competencies. <strong>To narrow your seach, simply click the core competency of interest in the sidebar on the right of the screen and the list of trainings will be reduced to only those that strengthen the specified competency.</strong> Note that the core competencies are divided into four color-coded categories: <span style="color:#0096c7"><i class="fa-solid fa-heart" aria-label="heart"></i> <strong>Values</strong></span>, <span style="color:#ff9500"><i class="fa-solid fa-wand-magic-sparkles" aria-label="wand-magic-sparkles"></i> <strong>Skills</strong></span>, <span style="color:#55a630"><i class="fa-solid fa-hand-holding-heart" aria-label="hand-holding-heart"></i> <strong>Stewardship</strong></span>, and <span style="color:#7b2cbf"><i class="fa-solid fa-square-poll-vertical" aria-label="square-poll-vertical"></i> <strong>Results</strong></span>.</p>
 <p>For more information on the core competencies (including specific performance indicators for each), please feel free to explore the glossary included in this website by clicking “Glossary” in the sidebar on the left of this screen.</p>
@@ -442,238 +446,196 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="VEJE" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="0" data-categories="VEJE" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/lead-collabs_community-engagement.html" class="no-external">Community Engagement Principles &amp; Practices</a>
+<a href="./content/lead-collabs_community-engagement.html" class="no-external-icon">Community Engagement Principles &amp; Practices</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/lead-collabs_community-engagement.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/lead-collabs_community-engagement.html" class="no-external">
+<a href="./content/lead-collabs_community-engagement.html" class="no-external-icon">
 <div class="listing-author">
 Designing &amp; Leading Collaboratives and Networks Series
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="VEJE" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="1" data-categories="VEJE" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/lead-collabs_success-design.html" class="no-external">Designing a Collaborative or Network for Success</a>
+<a href="./content/lead-collabs_success-design.html" class="no-external-icon">Designing a Collaborative or Network for Success</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/lead-collabs_success-design.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/lead-collabs_success-design.html" class="no-external">
+<a href="./content/lead-collabs_success-design.html" class="no-external-icon">
 <div class="listing-author">
 Designing &amp; Leading Collaboratives and Networks Series
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="VEJE" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="2" data-categories="VEJE" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/lead-collabs_facilitative-leadership.html" class="no-external">Facilitative Leadership Principles &amp; Practices</a>
+<a href="./content/lead-collabs_facilitative-leadership.html" class="no-external-icon">Facilitative Leadership Principles &amp; Practices</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/lead-collabs_facilitative-leadership.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/lead-collabs_facilitative-leadership.html" class="no-external">
+<a href="./content/lead-collabs_facilitative-leadership.html" class="no-external-icon">
 <div class="listing-author">
 Designing &amp; Leading Collaboratives and Networks Series
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRVdvcmslMjB3aXRoJTIwQWRhcHRhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VCdWlsZCUyMENhcGFjaXR5JTIwaW4lMjBPdGhlcnMlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRUVtYnJhY2UlMjBDb21wbGV4aXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VXb3JrJTIwdG8lMjBUcmFuc2Zvcm0lMjBQb3dlciUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM3YjJjYmYnJTNFRGVsaXZlciUyMEhpZ2glMjBRdWFsaXR5JTIwUmVzdWx0cyUzQyUyRnNwYW4lM0U=" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="3" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRVdvcmslMjB3aXRoJTIwQWRhcHRhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VCdWlsZCUyMENhcGFjaXR5JTIwaW4lMjBPdGhlcnMlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRUVtYnJhY2UlMjBDb21wbGV4aXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VXb3JrJTIwdG8lMjBUcmFuc2Zvcm0lMjBQb3dlciUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM3YjJjYmYnJTNFRGVsaXZlciUyMEhpZ2glMjBRdWFsaXR5JTIwUmVzdWx0cyUzQyUyRnNwYW4lM0U=" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/inclusive-facilitation_meetings.html" class="no-external">Designing and Facilitating Engaging and Effective Meetings</a>
+<a href="./content/inclusive-facilitation_meetings.html" class="no-external-icon">Designing and Facilitating Engaging and Effective Meetings</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/inclusive-facilitation_meetings.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/inclusive-facilitation_meetings.html" class="no-external">
+<a href="./content/inclusive-facilitation_meetings.html" class="no-external-icon">
 <div class="listing-author">
 Inclusive Facilitation Series
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtYnJhY2UlMjBWdWxuZXJhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VFbXBhdGhpemUlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRURpc3RyaWJ1dGVkJTIwTGVhZGVyc2hpcCUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFQnVpbGQlMjBDYXBhY2l0eSUyMGluJTIwT3RoZXJzJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VNb3ZlJTIwYXQlMjB0aGUlMjBTcGVlZCUyMG9mJTIwVHJ1c3QlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRVdvcmslMjB0byUyMFRyYW5zZm9ybSUyMFBvd2VyJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzdiMmNiZiclM0VFbnN1cmUlMjBCZWxvbmdpbmclMjBBY2Nlc3MlMjBhbmQlMjBPcHBvcnR1bml0eSUzQyUyRnNwYW4lM0U=" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="4" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtYnJhY2UlMjBWdWxuZXJhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VFbXBhdGhpemUlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRURpc3RyaWJ1dGVkJTIwTGVhZGVyc2hpcCUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFQnVpbGQlMjBDYXBhY2l0eSUyMGluJTIwT3RoZXJzJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VNb3ZlJTIwYXQlMjB0aGUlMjBTcGVlZCUyMG9mJTIwVHJ1c3QlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRVdvcmslMjB0byUyMFRyYW5zZm9ybSUyMFBvd2VyJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzdiMmNiZiclM0VFbnN1cmUlMjBCZWxvbmdpbmclMjBBY2Nlc3MlMjBhbmQlMjBPcHBvcnR1bml0eSUzQyUyRnNwYW4lM0U=" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/inclusive-facilitation_belonging.html" class="no-external">Facilitation Practices to Support Access, Inclusion, &amp; Belonging</a>
+<a href="./content/inclusive-facilitation_belonging.html" class="no-external-icon">Facilitation Practices to Support Access, Inclusion, &amp; Belonging</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/inclusive-facilitation_belonging.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/inclusive-facilitation_belonging.html" class="no-external">
+<a href="./content/inclusive-facilitation_belonging.html" class="no-external-icon">
 <div class="listing-author">
 Inclusive Facilitation Series
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRVdvcmslMjB3aXRoJTIwQWRhcHRhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyM2ZmOTUwMCclM0VEaXN0cmlidXRlZCUyMExlYWRlcnNoaXAlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRVN5c3RlbXMlMjBUaGlua2luZyUyMCUyNiUyMFN5bnRoZXNpcyUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFQWN0aXZlJTIwTGlzdGVuaW5nJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VFbWJyYWNlJTIwQ29tcGxleGl0eSUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFTW92ZSUyMGF0JTIwdGhlJTIwU3BlZWQlMjBvZiUyMFRydXN0JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzdiMmNiZiclM0VBY2hpZXZlJTIwUHJvZ3Jlc3MlMjBUb3dhcmRzJTIwR29hbHMlMjBNaXNzaW9uJTIwYW5kJTIwVmlzaW9uJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzdiMmNiZiclM0VEcml2ZSUyMEN5Y2xlcyUyMG9mJTIwQ29udGludW91cyUyMEltcHJvdmVtZW50JTIwYW5kJTIwRXZvbHV0aW9uJTNDJTJGc3BhbiUzRQ==" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="5" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRVdvcmslMjB3aXRoJTIwQWRhcHRhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyM2ZmOTUwMCclM0VEaXN0cmlidXRlZCUyMExlYWRlcnNoaXAlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRVN5c3RlbXMlMjBUaGlua2luZyUyMCUyNiUyMFN5bnRoZXNpcyUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFQWN0aXZlJTIwTGlzdGVuaW5nJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VFbWJyYWNlJTIwQ29tcGxleGl0eSUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFTW92ZSUyMGF0JTIwdGhlJTIwU3BlZWQlMjBvZiUyMFRydXN0JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzdiMmNiZiclM0VBY2hpZXZlJTIwUHJvZ3Jlc3MlMjBUb3dhcmRzJTIwR29hbHMlMjBNaXNzaW9uJTIwYW5kJTIwVmlzaW9uJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzdiMmNiZiclM0VEcml2ZSUyMEN5Y2xlcyUyMG9mJTIwQ29udGludW91cyUyMEltcHJvdmVtZW50JTIwYW5kJTIwRXZvbHV0aW9uJTNDJTJGc3BhbiUzRQ==" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/inclusive-facilitation_decision-making.html" class="no-external">Tools and Practices to Support Group Decision Making</a>
+<a href="./content/inclusive-facilitation_decision-making.html" class="no-external-icon">Tools and Practices to Support Group Decision Making</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/inclusive-facilitation_decision-making.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/inclusive-facilitation_decision-making.html" class="no-external">
+<a href="./content/inclusive-facilitation_decision-making.html" class="no-external-icon">
 <div class="listing-author">
 Inclusive Facilitation Series
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtYnJhY2UlMjBWdWxuZXJhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VFbXBhdGhpemUlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUV4ZXJjaXNlJTIwQ3JlYXRpdmUlMjBDb3VyYWdlJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VUYWtlJTIwQWN0aW9uJTIwdG8lMjBMZWFybiUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjNmZjk1MDAnJTNFQ2FuZGlkJTIwQ29tbXVuaWNhdGlvbiUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFQWN0aXZlJTIwTGlzdGVuaW5nJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VFbWJyYWNlJTIwQ29tcGxleGl0eSUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFTW92ZSUyMGF0JTIwdGhlJTIwU3BlZWQlMjBvZiUyMFRydXN0JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VXb3JrJTIwdG8lMjBUcmFuc2Zvcm0lMjBQb3dlciUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM3YjJjYmYnJTNFRHJpdmUlMjBDeWNsZXMlMjBvZiUyMENvbnRpbnVvdXMlMjBJbXByb3ZlbWVudCUyMGFuZCUyMEV2b2x1dGlvbiUzQyUyRnNwYW4lM0U=" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="6" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtYnJhY2UlMjBWdWxuZXJhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VFbXBhdGhpemUlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUV4ZXJjaXNlJTIwQ3JlYXRpdmUlMjBDb3VyYWdlJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VUYWtlJTIwQWN0aW9uJTIwdG8lMjBMZWFybiUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjNmZjk1MDAnJTNFQ2FuZGlkJTIwQ29tbXVuaWNhdGlvbiUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFQWN0aXZlJTIwTGlzdGVuaW5nJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VFbWJyYWNlJTIwQ29tcGxleGl0eSUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFTW92ZSUyMGF0JTIwdGhlJTIwU3BlZWQlMjBvZiUyMFRydXN0JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VXb3JrJTIwdG8lMjBUcmFuc2Zvcm0lMjBQb3dlciUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM3YjJjYmYnJTNFRHJpdmUlMjBDeWNsZXMlMjBvZiUyMENvbnRpbnVvdXMlMjBJbXByb3ZlbWVudCUyMGFuZCUyMEV2b2x1dGlvbiUzQyUyRnNwYW4lM0U=" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/interpersonal-comm_courage.html" class="no-external">Clear Communication, Courageous Conversations</a>
+<a href="./content/interpersonal-comm_courage.html" class="no-external-icon">Clear Communication, Courageous Conversations</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/interpersonal-comm_courage.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/interpersonal-comm_courage.html" class="no-external">
+<a href="./content/interpersonal-comm_courage.html" class="no-external-icon">
 <div class="listing-author">
 Interpersonal Communication
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtYnJhY2UlMjBWdWxuZXJhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VFeGVyY2lzZSUyMENyZWF0aXZlJTIwQ291cmFnZSUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjNmZjk1MDAnJTNFQ2FuZGlkJTIwQ29tbXVuaWNhdGlvbiUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFQWN0aXZlJTIwTGlzdGVuaW5nJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VFbWJyYWNlJTIwQ29tcGxleGl0eSUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFTW92ZSUyMGF0JTIwdGhlJTIwU3BlZWQlMjBvZiUyMFRydXN0JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzdiMmNiZiclM0VEcml2ZSUyMEN5Y2xlcyUyMG9mJTIwQ29udGludW91cyUyMEltcHJvdmVtZW50JTIwYW5kJTIwRXZvbHV0aW9uJTNDJTJGc3BhbiUzRQ==" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="7" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtYnJhY2UlMjBWdWxuZXJhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VFeGVyY2lzZSUyMENyZWF0aXZlJTIwQ291cmFnZSUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjNmZjk1MDAnJTNFQ2FuZGlkJTIwQ29tbXVuaWNhdGlvbiUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFQWN0aXZlJTIwTGlzdGVuaW5nJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VFbWJyYWNlJTIwQ29tcGxleGl0eSUzQyUyRnNwYW4lM0UlMkMlM0NzcGFuJTIwc3R5bGUlM0QnY29sb3IlM0ElMjM1NWE2MzAnJTNFTW92ZSUyMGF0JTIwdGhlJTIwU3BlZWQlMjBvZiUyMFRydXN0JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzdiMmNiZiclM0VEcml2ZSUyMEN5Y2xlcyUyMG9mJTIwQ29udGludW91cyUyMEltcHJvdmVtZW50JTIwYW5kJTIwRXZvbHV0aW9uJTNDJTJGc3BhbiUzRQ==" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/interpersonal-comm_navigate-conflict.html" class="no-external">Planning for and Navigating Conflict</a>
+<a href="./content/interpersonal-comm_navigate-conflict.html" class="no-external-icon">Planning for and Navigating Conflict</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/interpersonal-comm_navigate-conflict.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/interpersonal-comm_navigate-conflict.html" class="no-external">
+<a href="./content/interpersonal-comm_navigate-conflict.html" class="no-external-icon">
 <div class="listing-author">
 Interpersonal Communication
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtYnJhY2UlMjBWdWxuZXJhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VFbXBhdGhpemUlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRUJyaW5nJTIwVmlzaW9uJTIwdG8lMjBMaWZlJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VNb3ZlJTIwYXQlMjB0aGUlMjBTcGVlZCUyMG9mJTIwVHJ1c3QlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRVdvcmslMjB0byUyMFRyYW5zZm9ybSUyMFBvd2VyJTNDJTJGc3BhbiUzRQ==" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="8" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRUVtYnJhY2UlMjBWdWxuZXJhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzAwOTZjNyclM0VFbXBhdGhpemUlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRUJyaW5nJTIwVmlzaW9uJTIwdG8lMjBMaWZlJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VNb3ZlJTIwYXQlMjB0aGUlMjBTcGVlZCUyMG9mJTIwVHJ1c3QlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzNTVhNjMwJyUzRVdvcmslMjB0byUyMFRyYW5zZm9ybSUyMFBvd2VyJTNDJTJGc3BhbiUzRQ==" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/interpersonal-comm_understanding.html" class="no-external">Understanding Your Team: Thinking and Working Styles, Working Agreements</a>
+<a href="./content/interpersonal-comm_understanding.html" class="no-external-icon">Understanding Your Team: Thinking and Working Styles, Working Agreements</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/interpersonal-comm_understanding.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/interpersonal-comm_understanding.html" class="no-external">
+<a href="./content/interpersonal-comm_understanding.html" class="no-external-icon">
 <div class="listing-author">
 Interpersonal Communication
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRVdvcmslMjB3aXRoJTIwQWRhcHRhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyM2ZmOTUwMCclM0VQcm9ncmVzc2l2ZSUyMFRlY2hub2xvZ3klM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRURlbGl2ZXIlMjBIaWdoJTIwUXVhbGl0eSUyMFJlc3VsdHMlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRURyaXZlJTIwQ3ljbGVzJTIwb2YlMjBDb250aW51b3VzJTIwSW1wcm92ZW1lbnQlMjBhbmQlMjBFdm9sdXRpb24lM0MlMkZzcGFuJTNF" data-listing-file-modified-sort="1784556875299" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="9" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzMDA5NmM3JyUzRVdvcmslMjB3aXRoJTIwQWRhcHRhYmlsaXR5JTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyM2ZmOTUwMCclM0VQcm9ncmVzc2l2ZSUyMFRlY2hub2xvZ3klM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRURlbGl2ZXIlMjBIaWdoJTIwUXVhbGl0eSUyMFJlc3VsdHMlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRURyaXZlJTIwQ3ljbGVzJTIwb2YlMjBDb250aW51b3VzJTIwSW1wcm92ZW1lbnQlMjBhbmQlMjBFdm9sdXRpb24lM0MlMkZzcGFuJTNF" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/proj-planning-mgt_project-execution.html" class="no-external">Project Management &amp; Execution</a>
+<a href="./content/proj-planning-mgt_project-execution.html" class="no-external-icon">Project Management &amp; Execution</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/proj-planning-mgt_project-execution.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/proj-planning-mgt_project-execution.html" class="no-external">
+<a href="./content/proj-planning-mgt_project-execution.html" class="no-external-icon">
 <div class="listing-author">
 Project Planning &amp; Management Series
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRUJyaW5nJTIwVmlzaW9uJTIwdG8lMjBMaWZlJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VCdWlsZCUyMENhcGFjaXR5JTIwaW4lMjBPdGhlcnMlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRUFjaGlldmUlMjBQcm9ncmVzcyUyMFRvd2FyZHMlMjBHb2FscyUyME1pc3Npb24lMjBhbmQlMjBWaXNpb24lM0MlMkZzcGFuJTNF" data-listing-file-modified-sort="1784556875298" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="10" data-categories="JTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzZmY5NTAwJyUzRUJyaW5nJTIwVmlzaW9uJTIwdG8lMjBMaWZlJTNDJTJGc3BhbiUzRSUyQyUzQ3NwYW4lMjBzdHlsZSUzRCdjb2xvciUzQSUyMzU1YTYzMCclM0VCdWlsZCUyMENhcGFjaXR5JTIwaW4lMjBPdGhlcnMlM0MlMkZzcGFuJTNFJTJDJTNDc3BhbiUyMHN0eWxlJTNEJ2NvbG9yJTNBJTIzN2IyY2JmJyUzRUFjaGlldmUlMjBQcm9ncmVzcyUyMFRvd2FyZHMlMjBHb2FscyUyME1pc3Npb24lMjBhbmQlMjBWaXNpb24lM0MlMkZzcGFuJTNF" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/proj-planning-mgt_project-design.html" class="no-external">Project Selection &amp; Design</a>
+<a href="./content/proj-planning-mgt_project-design.html" class="no-external-icon">Project Selection &amp; Design</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/proj-planning-mgt_project-design.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/proj-planning-mgt_project-design.html" class="no-external">
+<a href="./content/proj-planning-mgt_project-design.html" class="no-external-icon">
 <div class="listing-author">
 Project Planning &amp; Management Series
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="VEJE" data-listing-file-modified-sort="1784556875299" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="11" data-categories="VEJE" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/storytelling_strategy.html" class="no-external">Communications Strategy &amp; Best Practices, Tips and Tools</a>
+<a href="./content/storytelling_strategy.html" class="no-external-icon">Communications Strategy &amp; Best Practices, Tips and Tools</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/storytelling_strategy.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/storytelling_strategy.html" class="no-external">
+<a href="./content/storytelling_strategy.html" class="no-external-icon">
 <div class="listing-author">
 Storytelling for Impact
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="VEJE" data-listing-file-modified-sort="1784556875299" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="12" data-categories="VEJE" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/storytelling_basics.html" class="no-external">Storytelling Basics</a>
+<a href="./content/storytelling_basics.html" class="no-external-icon">Storytelling Basics</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/storytelling_basics.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/storytelling_basics.html" class="no-external">
+<a href="./content/storytelling_basics.html" class="no-external-icon">
 <div class="listing-author">
 Storytelling for Impact
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="VEJE" data-listing-file-modified-sort="1784556875299" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="quarto-post image-right" data-index="13" data-categories="VEJE" data-listing-file-modified-sort="1793720467214" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./content/storytelling_impact.html" class="no-external">Storytelling as a Lever for Change and Impact</a>
+<a href="./content/storytelling_impact.html" class="no-external-icon">Storytelling as a Lever for Change and Impact</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./content/storytelling_impact.html" class="no-external"></a>
-</div>
 </div>
 <div class="metadata">
-<a href="./content/storytelling_impact.html" class="no-external">
+<a href="./content/storytelling_impact.html" class="no-external-icon">
 <div class="listing-author">
 Storytelling for Impact
 </div>
@@ -687,15 +649,50 @@ Storytelling for Impact
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
       const i = window.document.createElement("i");
       i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
     }
     setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
@@ -770,11 +767,30 @@ Storytelling for Impact
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/LegacyWorksGroup\.github\.io\/learning-catalog\/");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -788,8 +804,70 @@ Storytelling for Impact
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -803,6 +881,7 @@ Storytelling for Impact
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -965,44 +1044,54 @@ Storytelling for Impact
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1100,6 +1189,9 @@ Storytelling for Impact
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">
