@@ -1,5 +1,5 @@
 ---
-title: "Principles & Practices"
+title: "Community Engagement Principles & Practices"
 author: "Community Engagement Series"
 description: "Description TBD"
 categories:
