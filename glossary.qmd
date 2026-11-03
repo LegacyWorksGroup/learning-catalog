@@ -2,6 +2,8 @@
 title: "Core Competencies Glossary"
 ---
 
+<meta name="robots" content="noindex, nofollow">
+
 All core competencies can be assigned into one of four categories: <span style='color:#0096c7'>{{< fa heart >}} **Values**</span>, <span style='color:#ff9500'>{{< fa wand-magic-sparkles >}} **Skills**</span>, <span style='color:#55a630'>{{< fa hand-holding-heart >}} **Stewardship**</span>, and <span style='color:#7b2cbf'>{{< fa square-poll-vertical >}} **Results**</span>. Click the relevant tab below for more details on the competencies within each category.
 
 :::{.panel-tabset}

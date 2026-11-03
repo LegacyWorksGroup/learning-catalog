@@ -3,6 +3,8 @@ title: "Language Accessibility"
 lightbox: true
 ---
 
+<meta name="robots" content="noindex, nofollow">
+
 ## _Cómo traducir idiomas_ | How to Translate Language
 
 :::{.panel-tabset}

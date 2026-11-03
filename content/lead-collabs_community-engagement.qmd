@@ -9,6 +9,8 @@ format:
     title-block-categories: false
 ---
 
+<meta name="robots" content="noindex, nofollow">
+
 To visit this session's materials, click [here](https://legacyworksgroup.github.io/lead-collabs/content/community-engagement.html) or see below.
 
 ```{=html}

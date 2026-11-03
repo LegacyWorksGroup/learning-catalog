@@ -15,6 +15,8 @@ format:
     title-block-categories: false
 ---
 
+<meta name="robots" content="noindex, nofollow">
+
 To visit this session's materials, click [here](https://legacyworksgroup.github.io/interpersonal-comm/content/navigate-conflict.html) or see below.
 
 ```{=html}
