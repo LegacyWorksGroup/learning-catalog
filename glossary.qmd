@@ -9,31 +9,31 @@ All core competencies can be assigned into one of four categories: <span style='
 ## <span style='color:#0096c7'>{{< fa heart >}} Values | Valores</span>
 
 :::{.panel-tabset}
-### Exercise creative courage
+### Exercise creative courage \| Ejercitar la valentía creativa
 
 Act with curiosity and bravery, share bold ideas, and embrace both experimentation and the inevitable mistakes that come with trying something new. 
 
 > {{< fa angles-right >}} Is passionate about possibility and recognizes paths for emergence of new ideas and processes <br> {{< fa angles-right >}} Sets clear, but kind boundaries <br> {{< fa angles-right >}} Invites sharing and celebration of wild ideas along with the mistakes that will come when trying them
 
-### Take action to learn
+### Take action to learn \| Tomar acción para aprender
 
 Pursue learning through deliberate action, balance reflection with progress, and work steadily toward long-term goals despite challenges.
 
 > {{< fa angles-right >}} Designs a personal learning pathway; co-creates opportunities for learning <br> {{< fa angles-right >}} Balances quick action with thoughtful reflection
 
-### Empathize
+### Empathize \| Empatizar
 
 Listen deeply to others' experiences, and create opportunities that center the voices of the people and communities you are working with.
 
 > {{< fa angles-right >}} Actively seeks insight from the experience and perspective of others <br> {{< fa angles-right >}} Connects with people from a place of love, respect and curiosity
 
-### Embrace vulnerability
+### Embrace vulnerability \| Abrazar la vulnerabilidad
 
 Step into uncertainty with openness, ask for support and feedback, and own your learning and growth with honesty and courage.
 
 >  {{< fa angles-right >}} Seeks help, feedback and collaboration <br> {{< fa angles-right >}} Owns where they are and what they need to learn
 
-### Work with adaptability
+### Work with adaptability \| Trabajar con adaptabilidad
 
 Embrace change, pivot with intention, and stay open to evolving paths and outcomes.
 
