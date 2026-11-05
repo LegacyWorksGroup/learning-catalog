@@ -23,7 +23,7 @@ Pursue learning through deliberate action, balance reflection with progress, and
 
 ### Empathize
 
-Listen deeply to others’ experiences, and create opportunities that center the voices of the people and communities you are working with.
+Listen deeply to others' experiences, and create opportunities that center the voices of the people and communities you are working with.
 
 > {{< fa angles-right >}} Actively seeks insight from the experience and perspective of others <br> {{< fa angles-right >}} Connects with people from a place of love, respect and curiosity
 
@@ -41,89 +41,148 @@ Embrace change, pivot with intention, and stay open to evolving paths and outcom
 
 :::
 
-![](content/images/competency-cards/01-front-exercise-creative-courage.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;" width="18%" .lightbox}
-
-![](content/images/competency-cards/02-front-take-action-to-learn.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;" width="18%" .lightbox}
-
-![](content/images/competency-cards/03-front-empathize.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;" width="18%" .lightbox}
-
-![](content/images/competency-cards/04-front-embrace-vulnerability.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;" width="18%" .lightbox}
-
-![](content/images/competency-cards/05-front-work-with-adaptability.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 10px;" width="18%" .lightbox}
+![](content/images/competency-cards/01-front-exercise-creative-courage.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/02-front-take-action-to-learn.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/03-front-empathize.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/04-front-embrace-vulnerability.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/05-front-work-with-adaptability.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
 
 
 
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-# BASEMENT
-
-**
-
-
-
-**
-
-
+## <span style='color:#ff9500'>{{< fa wand-magic-sparkles >}} Skills | Habilidades</span>
 
 :::{.panel-tabset}
-### <span style='color:#ff9500'>{{< fa wand-magic-sparkles >}} Skills | Habilidades</span>
 
-| Competency | Description | Growth Indicators |
-|:-------|:-----------------|:--------------------|
-| Bring vision to life \| Dar vida a la visión | Passionately co-creates an inspiring vision, translate it into clear agreements and goals, and follow through with disciplined prioritization and daily execution | {{< fa angles-right >}} Passionately co-creates an inspiring vision, shares the big picture, and follows through to execution of vision <br> {{< fa angles-right >}} Creates clear team agreements, goals, expectations, and co-constructed narratives <br> {{< fa angles-right >}} Takes ownership across all levels of work in realizing the vision, demonstrating the ability to strategize, prioritize, organize, and manage tasks and key milestones |
-| Candid communication \| Comunicación sincera | Speak and write openly, honestly, and with compassion, keeping messages clear, timely, and accessible | {{< fa angles-right >}} Adapts language, tone, and style to different audiences and contexts to connect effectively across differences <br> {{< fa angles-right >}} Communicates with authentic candor and compassion, sharing truth while owning their impact on others <br> {{< fa angles-right >}} Shares information consistently and in a timely manner to maintain alignment, and when out of alignment to name it and address it in real time <br> {{< fa angles-right >}} Models excellent writing skills and professional email correspondence <br> {{< fa angles-right >}}Expresses ideas clearly and concisely, making complex concepts accessible |
-| Distributed leadership \| Liderazgo distribuido | Step up to lead where opportunities arise and create space for others to lead, share power, and break down top-down structures through collaboration | {{< fa angles-right >}} Actively creates space for others to lead and contribute, recognizing diverse strengths <br> {{< fa angles-right >}} Identifies need and steps into leadership, taking initiative to move work forward <br> {{< fa angles-right >}} Shares decision-making to distribute authority and fosters shared ownership <br> {{< fa angles-right >}} Delegates thoughtfully, assigning tasks and responsibilities in ways that build skills, empower others, and foster shared accountability |
-| Progressive technology \| Tecnología progresiva | Profficient in utilizing various technological tools and platforms, both current and emergent | {{< fa angles-right >}} Open to learning and exploring new technological tools, systems, and processes <br> {{< fa angles-right >}} Utilizes technological tools and platforms efficiently and effectively to fulfill the objectives at hand |
-| Systems Thinking & Synthesis \| Pensamiento sistémico y síntesis | Seek diverse perspectives, connect insights across sources, and generate questions and conclusions to understand how systems work. | {{< fa angles-right >}} Identifies patterns and root causes by questioning assumptions and analyzing complex problems across systems <br> {{< fa angles-right >}} Transforms complexity into clarity by integrating diverse data and perspectives into actionable insights and decisions |
+### Bring vision to life \| Dar vida a la visión
 
-### <span style='color:#55a630'>{{< fa hand-holding-heart >}} Stewardship | Fortalecimiento</span>
+Passionately co-creates an inspiring vision, translate it into clear agreements and goals, and follow through with disciplined prioritization and daily execution.
 
-| Competency | Description | Growth Indicators |
-|:-------|:-----------------|:--------------------|
-| Active listening \| Escucha activa | Stay fully present, ask open-ended questions, listen for story and possibility, and build on others’ ideas while centering voices that are often unheard | {{< fa angles-right >}} Actively listens to, demonstrates understanding and builds on the thoughts and ideas of others <br> {{< fa angles-right >}} Asks open ended questions, not leading questions <br> {{< fa angles-right >}} Embraces the silent space |
-| Build capacity in others \| Potencia las habilidades de otros | Share knowledge openly, co-create goals and agreements, and mentor and support others to strengthen collective leadership | {{< fa angles-right >}} Shares knowledge, resources, and lessons learned to build capacity in others <br> {{< fa angles-right >}} Practices transparency and non-attachment when sharing with collaborators <br> {{< fa angles-right >}} Provides coaching, mentoring, or constructive feedback that supports the development new skills and greater confidence |
-| Embrace complexity \| Abraza la complejidad | Sit with uncertainty and discomfort, avoid quick fixes, and create space for thoughtful sense-making before acting | {{< fa angles-right >}} Builds comfort with the mess and avoids the quick fix <br> {{< fa angles-right >}} Creates opportunities for sense making before decision making |
-| Move at the speed of trust \| Muévete a la velocidad de la confianza | Build mutual respect and understanding by meeting people where they are, investing in relationships with intention and patience, and recognizing that collaborative processes are nonlinear | {{< fa angles-right >}} Is transparent and authentic about realistic process and outcomes, and follows through on commitments <br> {{< fa angles-right >}} Pauses when there is conflict to for mediation and to ensure resolution before continuing the work <br> {{< fa angles-right >}} Recognized and embraces nonlinear nature of the work including forward and backward steps |
-| Work to transform power \| Trabaja para transformar el poder | Reflect on system dynamics, co-create ways to shift imbalances, and design spaces that share power rather than concentrate it | {{< fa angles-right >}} Creates spaces and structures that distribute power rather than concentrate it <br> {{< fa angles-right >}} Pauses to reflect on team and system dynamics, and personal power and influence |
+> {{< fa angles-right >}} Passionately co-creates an inspiring vision, shares the big picture, and follows through to execution of vision <br> {{< fa angles-right >}} Creates clear team agreements, goals, expectations, and co-constructed narratives <br> {{< fa angles-right >}} Takes ownership across all levels of work in realizing the vision, demonstrating the ability to strategize, prioritize, organize, and manage tasks and key milestones
 
-### <span style='color:#7b2cbf'>{{< fa square-poll-vertical >}} Results | Resultados</span>
+### Candid communication \| Comunicación sincera
 
-| Competency | Description | Growth Indicators |
-|:-------|:-----------------|:--------------------|
-| Achieve progress towards goals, mission and vision \| Logra avances hacia las metas, misión y visión | Achieves large-scale goals that integrate a collective of diverse interests over time | {{< fa angles-right >}} Collective priorities are translated into clear milestones, and measurable progress toward long-term goals is consistently demonstrated |
-| Deliver high quality results \| Entrega resultados de alta calidad | Produce work that meets high standards and take accountability when outcomes fall short | {{< fa angles-right >}} Content, deliverables and design are high quality <br> {{< fa angles-right >}} Completes tasks accurately and on time, ensuring records, documentation, and processes are organized, accessible, and support smooth organizational operations <br> {{< fa angles-right >}} Takes accountability where results fall short <br> {{< fa angles-right >}} Collective priorities are translated into clear milestones, and measurable progress toward long-term goals is consistently demonstrated |
-| Drive cycles of continuous improvement and evolution \| Impulsa ciclos de mejora continua y evolución | Release what’s done, stay curious about what’s next, and iterate openly with team to keep evolving | {{< fa angles-right >}} Demonstrates ability to let go and liberate what comes next <br> {{< fa angles-right >}} Maintains open communication and reflection with team |
-| Ensure belonging, access and opportunity \| Garantiza pertenencia, acceso y oportunidad | Ensure an experience of belonging, access and opportunity externally and internally | {{< fa angles-right >}} Shares credit and recognition broadly, ensuring contributions are visible across all levels and identities <br> {{< fa angles-right >}} Team members and partners consistently report feeling valued, included, and able to contribute fully <br> {{< fa angles-right >}} Barriers to participation (structural, cultural, or logistical) are reduced or eliminated, resulting in broader and more diverse engagement |
-| Share the story \| Comparte la historia | Celebrate successes, share key learnings, and capture work in ways that inspire learning, replication, and broader impact | {{< fa angles-right >}} Celebrates the successes <br> {{< fa angles-right >}} Stories and lived experiences are shared in ways that deepen engagement with people, place, mission, and purpose <br> {{< fa angles-right >}} Creative approaches are used to make knowledge, lessons, and complex ideas memorable and accessible <br> {{< fa angles-right >}} Stories preserve and transmit history, lived experience, ecological memory, and cultural identity across communities and generations <br> {{< fa angles-right >}} Builds models and documents work for wide-spread recycling, learning and use |
-| Cultivate leadership \| Cultivar el liderazgo | The collective strengths of the team are give space to shine and opportunities for growth are offered resulting in stronger leadership | {{< fa angles-right >}} Team members' skills, expertise, and perspectives are utilized in ways that improve the quality, efficiency, and impact of team outcomes <br> {{< fa angles-right >}} Team members gain new skills, confidence, responsibilities, or leadership opportunities as a result of coaching, feedback and knowledge sharing <br> {{< fa angles-right >}} The team demonstrates increased trust, shared ownership, and effectiveness in achieving goals, solving problems, and delivering results together |
+Speak and write openly, honestly, and with compassion, keeping messages clear, timely, and accessible.
+
+> {{< fa angles-right >}} Adapts language, tone, and style to different audiences and contexts to connect effectively across differences <br> {{< fa angles-right >}} Communicates with authentic candor and compassion, sharing truth while owning their impact on others <br> {{< fa angles-right >}} Shares information consistently and in a timely manner to maintain alignment, and when out of alignment to name it and address it in real time <br> {{< fa angles-right >}} Models excellent writing skills and professional email correspondence <br> {{< fa angles-right >}}Expresses ideas clearly and concisely, making complex concepts accessible
+
+### Distributed leadership \| Liderazgo distribuido
+
+Step up to lead where opportunities arise and create space for others to lead, share power, and break down top-down structures through collaboration.
+
+> {{< fa angles-right >}} Actively creates space for others to lead and contribute, recognizing diverse strengths <br> {{< fa angles-right >}} Identifies need and steps into leadership, taking initiative to move work forward <br> {{< fa angles-right >}} Shares decision-making to distribute authority and fosters shared ownership <br> {{< fa angles-right >}} Delegates thoughtfully, assigning tasks and responsibilities in ways that build skills, empower others, and foster shared accountability
+
+### Systems Thinking & Synthesis \| Pensamiento sistémico y síntesis
+
+Seek diverse perspectives, connect insights across sources, and generate questions and conclusions to understand how systems work.
+
+> {{< fa angles-right >}} Identifies patterns and root causes by questioning assumptions and analyzing complex problems across systems <br> {{< fa angles-right >}} Transforms complexity into clarity by integrating diverse data and perspectives into actionable insights and decisions
+
+### Progressive technology \| Tecnología progresiva
+
+Profficient in utilizing various technological tools and platforms, both current and emergent.
+
+> {{< fa angles-right >}} Open to learning and exploring new technological tools, systems, and processes <br> {{< fa angles-right >}} Utilizes technological tools and platforms efficiently and effectively to fulfill the objectives at hand
 
 :::
 
+![](content/images/competency-cards/06-front-bring-vision-to-life.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/07-front-candid-communication.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/08-front-distributed-leadership.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/09-front-systems-sensing-synthesis.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/10-front-progressive-technology.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
 
-![](content/images/competency-cards/01-front-exercise-creative-courage.jpg){style="float: right; margin-left: 15px; margin-top: 15px; margin-bottom: 15px;" width="18%" .lightbox}
 
-### C
 
-X
+## <span style='color:#55a630'>{{< fa hand-holding-heart >}} Stewardship | Fortalecimiento</span>
 
-> 
+:::{.panel-tabset}
+### Active listening \| Escucha activa
 
-![](content/images/competency-cards/01-front-exercise-creative-courage.jpg){style="float: left; margin-right: 15px; margin-top: 15px; margin-bottom: 15px;" width="18%" .lightbox}
+Stay fully present, ask open-ended questions, listen for story and possibility, and build on others' ideas while centering voices that are often unheard.
 
-### C
+> {{< fa angles-right >}} Actively listens to, demonstrates understanding and builds on the thoughts and ideas of others <br> {{< fa angles-right >}} Asks open ended questions, not leading questions <br> {{< fa angles-right >}} Embraces the silent space
 
-X
+### Move at the speed of trust \| Muévete a la velocidad de la confianza
 
-> 
+Build mutual respect and understanding by meeting people where they are, investing in relationships with intention and patience, and recognizing that collaborative processes are nonlinear.
 
+> {{< fa angles-right >}} Is transparent and authentic about realistic process and outcomes, and follows through on commitments <br> {{< fa angles-right >}} Pauses when there is conflict to for mediation and to ensure resolution before continuing the work <br> {{< fa angles-right >}} Recognized and embraces nonlinear nature of the work including forward and backward steps
+
+### Embrace complexity \| Abraza la complejidad
+
+Sit with uncertainty and discomfort, avoid quick fixes, and create space for thoughtful sense-making before acting.
+
+> {{< fa angles-right >}} Builds comfort with the mess and avoids the quick fix <br> {{< fa angles-right >}} Creates opportunities for sense making before decision making
+
+### Work to transform power \| Trabaja para transformar el poder
+
+Reflect on system dynamics, co-create ways to shift imbalances, and design spaces that share power rather than concentrate it.
+
+> {{< fa angles-right >}} Creates spaces and structures that distribute power rather than concentrate it <br> {{< fa angles-right >}} Pauses to reflect on team and system dynamics, and personal power and influence
+
+### Build capacity in others \| Potencia las habilidades de otros
+
+Share knowledge openly, co-create goals and agreements, and mentor and support others to strengthen collective leadership.
+
+> {{< fa angles-right >}} Shares knowledge, resources, and lessons learned to build capacity in others <br> {{< fa angles-right >}} Practices transparency and non-attachment when sharing with collaborators <br> {{< fa angles-right >}} Provides coaching, mentoring, or constructive feedback that supports the development new skills and greater confidence
+
+:::
+
+![](content/images/competency-cards/11-front-active-listening.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/12-front-move-at-the-speed-of-trust.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/13-front-embrace-complexity.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/14-front-work-to-transform-power.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/15-front-build-capacity-in-others.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+
+
+
+## <span style='color:#7b2cbf'>{{< fa square-poll-vertical >}} Results | Resultados</span>
+
+:::{.panel-tabset}
+### Deliver high quality results \| Entrega resultados de alta calidad
+
+Produce work that meets high standards and take accountability when outcomes fall short.
+
+> {{< fa angles-right >}} Content, deliverables and design are high quality <br> {{< fa angles-right >}} Completes tasks accurately and on time, ensuring records, documentation, and processes are organized, accessible, and support smooth organizational operations <br> {{< fa angles-right >}} Takes accountability where results fall short <br> {{< fa angles-right >}} Collective priorities are translated into clear milestones, and measurable progress toward long-term goals is consistently demonstrated
+
+### Drive cycles of continuous improvement and evolution \| Impulsa ciclos de mejora continua y evolución
+
+Release what's done, stay curious about what's next, and iterate openly with team to keep evolving.
+
+> {{< fa angles-right >}} Demonstrates ability to let go and liberate what comes next <br> {{< fa angles-right >}} Maintains open communication and reflection with team
+
+### Share the story \| Comparte la historia
+
+Celebrate successes, share key learnings, and capture work in ways that inspire learning, replication, and broader impact.
+
+> {{< fa angles-right >}} Celebrates the successes <br> {{< fa angles-right >}} Stories and lived experiences are shared in ways that deepen engagement with people, place, mission, and purpose <br> {{< fa angles-right >}} Creative approaches are used to make knowledge, lessons, and complex ideas memorable and accessible <br> {{< fa angles-right >}} Stories preserve and transmit history, lived experience, ecological memory, and cultural identity across communities and generations <br> {{< fa angles-right >}} Builds models and documents work for wide-spread recycling, learning and use
+
+### Achieve progress towards goals, mission and vision \| Logra avances hacia las metas, misión y visión
+
+Achieves large-scale goals that integrate a collective of diverse interests over time.
+
+> {{< fa angles-right >}} Collective priorities are translated into clear milestones, and measurable progress toward long-term goals is consistently demonstrated
+
+
+
+### Ensure belonging, access and opportunity \| Garantiza pertenencia, acceso y oportunidad
+
+Ensure an experience of belonging, access and opportunity externally and internally.
+
+> {{< fa angles-right >}} Shares credit and recognition broadly, ensuring contributions are visible across all levels and identities <br> {{< fa angles-right >}} Team members and partners consistently report feeling valued, included, and able to contribute fully <br> {{< fa angles-right >}} Barriers to participation (structural, cultural, or logistical) are reduced or eliminated, resulting in broader and more diverse engagement
+
+
+
+### Cultivate leadership \| Cultivar el liderazgo
+
+The collective strengths of the team are give space to shine and opportunities for growth are offered resulting in stronger leadership.
+
+> {{< fa angles-right >}} Team members' skills, expertise, and perspectives are utilized in ways that improve the quality, efficiency, and impact of team outcomes <br> {{< fa angles-right >}} Team members gain new skills, confidence, responsibilities, or leadership opportunities as a result of coaching, feedback and knowledge sharing <br> {{< fa angles-right >}} The team demonstrates increased trust, shared ownership, and effectiveness in achieving goals, solving problems, and delivering results together
+
+:::
+
+![](content/images/competency-cards/16-front-deliver-high-quality-results.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/17-front-drive-cycles-of-continuous-improvement-a.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/18-front-share-the-story.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/19-front-ensure-belonging-access-and-opportunity.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/20-front-cultivate-leadership.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
