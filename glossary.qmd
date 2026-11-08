@@ -57,11 +57,11 @@ All core competencies can be assigned into one of four categories: <span style='
 
 :::
 
-![](content/images/competency-cards/01-front-exercise-creative-courage.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/02-front-take-action-to-learn.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/03-front-empathize.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/04-front-embrace-vulnerability.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/05-front-work-with-adaptability.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/01-front-exercise-creative-courage.jpg){alt="Illustrated hand grabbing a paint brush from which a simple rainbow emanates" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/02-front-take-action-to-learn.jpg){alt="Illustrated surfer catches a wave while other surfers look on and cheer" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/03-front-empathize.jpg){alt="Two illustrated people with stylized hearts make an infinity symbol with their arms" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/04-front-embrace-vulnerability.jpg){alt="Illustrated person with a large, stylized heart with radiating lines surrounding them" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/05-front-work-with-adaptability.jpg){alt="Illustrated Swiss army knife" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
 
 
 
@@ -116,11 +116,11 @@ All core competencies can be assigned into one of four categories: <span style='
 
 :::
 
-![](content/images/competency-cards/06-front-bring-vision-to-life.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/07-front-candid-communication.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/08-front-distributed-leadership.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/09-front-systems-sensing-synthesis.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/10-front-progressive-technology.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/06-front-bring-vision-to-life.jpg){alt="Illustrated sunflower growing from a seed to a plant in three stages" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/07-front-candid-communication.jpg){alt="Two illustrated people exchange stylized sound waves under a neutral-colored arch" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/08-front-distributed-leadership.jpg){alt="Illustrated flying 'V' of migratory birds over an ocean" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/09-front-systems-sensing-synthesis.jpg){alt="Illustration of a bison surrounded by the organic and environmental components of its ecosystem" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/10-front-progressive-technology.jpg){alt="Illustration of a laptop and a cell phone connected by a network of circles and lines" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
 
 
 
@@ -175,11 +175,11 @@ All core competencies can be assigned into one of four categories: <span style='
 
 :::
 
-![](content/images/competency-cards/11-front-active-listening.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/12-front-move-at-the-speed-of-trust.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/13-front-embrace-complexity.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/14-front-work-to-transform-power.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/15-front-build-capacity-in-others.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/11-front-active-listening.jpg){alt="Illustration of an ear with human legs running" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/12-front-move-at-the-speed-of-trust.jpg){alt="Illustration of a group of snails moving together" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/13-front-embrace-complexity.jpg){alt="Illustration of a group of people surrounding a table with a complex, swirling pattern on it" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/14-front-work-to-transform-power.jpg){alt="Illustration of a large mushroom overshadowing a small dung beetle rolling a ball" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/15-front-build-capacity-in-others.jpg){alt="Illustration of a large tree's roots with arrows pointing to the roots of smaller, nearby trees" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
 
 
 
@@ -244,8 +244,8 @@ All core competencies can be assigned into one of four categories: <span style='
 
 :::
 
-![](content/images/competency-cards/16-front-deliver-high-quality-results.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/17-front-drive-cycles-of-continuous-improvement-a.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/18-front-share-the-story.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/19-front-ensure-belonging-access-and-opportunity.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
-![](content/images/competency-cards/20-front-cultivate-leadership.jpg){style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/16-front-deliver-high-quality-results.jpg){alt="Illustration of one person handing a multi-tiered cake to another" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/17-front-drive-cycles-of-continuous-improvement-a.jpg){alt="Illustration of an infinity symbol connecting an acorn to a sapling to an oak tree and back again" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/18-front-share-the-story.jpg){alt="Illustration of a person gesticulating over a campfire while sparks rise" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/19-front-ensure-belonging-access-and-opportunity.jpg){alt="Illustration of a group of people waving flags together on a riverbank" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
+![](content/images/competency-cards/20-front-cultivate-leadership.jpg){alt="Illustration looking down on a group of people standing in circle holding their hands into the center" style="float: left; margin-left: 15px; margin-top: 10px; margin-bottom: 20px;" width="18%" .lightbox}
