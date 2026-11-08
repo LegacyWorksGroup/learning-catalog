@@ -54,8 +54,16 @@ $code-block-bg: $gray-2; // code block background color
 .cc-result { color: $cc-4; }
 
 // Increase contrast of text in tab panel label
-.nav-tabs .nav-link.active { color: $charcoal; }
-.nav-tabs .nav-link { color: $charcoal; }
+.nav-tabs .nav-link.active {background-color: #FFF;
+  color: $charcoal; }
+.nav-tabs .nav-link {background-color: #FFF;
+  color: $charcoal; }
+.tab-content {background-color: #FFF;
+  color: $charcoal; }
+
+// Improve contrast to callout backgrounds
+.callout-body {background-color: #FFF; 
+  color: $charcoal; }
 
 // Improve background contrast for code chunk ouput
 pre code:not(.sourceCode) { background-color: $gray-2; }
