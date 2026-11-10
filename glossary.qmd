@@ -4,7 +4,7 @@ title: "Core Competencies Glossary"
 
 <meta name="robots" content="noindex, nofollow">
 
-All core competencies can be assigned into one of four categories: <span style='color:#0096c7'>{{< fa heart >}} **Values**</span>, <span style='color:#ff9500'>{{< fa wand-magic-sparkles >}} **Skills**</span>, <span style='color:#55a630'>{{< fa hand-holding-heart >}} **Stewardship**</span>, and <span style='color:#7b2cbf'>{{< fa square-poll-vertical >}} **Results**</span>. Click a competency below to see a short description and growth indicators. Clicking one of the card images will zoom it in and make the image more easily visible.
+All core competencies can be assigned into one of four categories: [{{< fa heart >}} **Values**]{.cc-value}, [{{< fa wand-magic-sparkles >}} **Skills**]{.cc-skill}, [{{< fa hand-holding-heart >}} **Stewardship**<]{.cc-steward}, and [{{< fa square-poll-vertical >}} **Results**]{.cc-result}. Click a competency below to see a short description and growth indicators. Clicking one of the card images will zoom it in and make the image more easily visible.
 
 ## [{{< fa heart >}} Values | Valores]{.cc-value}
 
