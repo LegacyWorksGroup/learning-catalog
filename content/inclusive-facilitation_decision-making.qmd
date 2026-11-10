@@ -3,14 +3,14 @@ title: "Tools and Practices to Support Group Decision Making"
 author: "Inclusive Facilitation Series"
 description: "Recognize the stages of participatory decision making and the type of thinking (divergent, emergent, or convergent) required for each stage"
 categories: 
-    - <span style='color:#0096c7'>Work with Adaptability</span>
-    - <span style='color:#ff9500'>Distributed Leadership</span>
-    - <span style='color:#ff9500'>Systems Thinking & Synthesis</span>
-    - <span style='color:#55a630'>Active Listening</span>
-    - <span style='color:#55a630'>Embrace Complexity</span>
-    - <span style='color:#55a630'>Move at the Speed of Trust</span>
-    - <span style='color:#7b2cbf'>Achieve Progress Towards Goals Mission and Vision</span>
-    - <span style='color:#7b2cbf'>Drive Cycles of Continuous Improvement and Evolution</span>
+    - <span style='color:#398293'>Work with Adaptability</span>
+    - <span style='color:#a9d043'>Distributed Leadership</span>
+    - <span style='color:#a9d043'>Systems Thinking & Synthesis</span>
+    - <span style='color:#396d60'>Active Listening</span>
+    - <span style='color:#396d60'>Embrace Complexity</span>
+    - <span style='color:#396d60'>Move at the Speed of Trust</span>
+    - <span style='color:#7bb881'>Achieve Progress Towards Goals Mission and Vision</span>
+    - <span style='color:#7bb881'>Drive Cycles of Continuous Improvement and Evolution</span>
 format:
   html:
     title-block-categories: false

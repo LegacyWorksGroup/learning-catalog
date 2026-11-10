@@ -3,11 +3,11 @@ title: "Designing and Facilitating Engaging and Effective Meetings"
 author: "Inclusive Facilitation Series"
 description: "Demonstrate a set of “Liberating Structures” for engaging, effective group meetings."
 categories:
-    - <span style='color:#0096c7'>Work with Adaptability</span>
-    - <span style='color:#55a630'>Build Capacity in Others</span>
-    - <span style='color:#55a630'>Embrace Complexity</span>
-    - <span style='color:#55a630'>Work to Transform Power</span>
-    - <span style='color:#7b2cbf'>Deliver High Quality Results</span>
+    - <span style='color:#398293'>Work with Adaptability</span>
+    - <span style='color:#396d60'>Build Capacity in Others</span>
+    - <span style='color:#396d60'>Embrace Complexity</span>
+    - <span style='color:#396d60'>Work to Transform Power</span>
+    - <span style='color:#7bb881'>Deliver High Quality Results</span>
 format:
   html:
     title-block-categories: false
