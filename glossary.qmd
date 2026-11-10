@@ -6,7 +6,7 @@ title: "Core Competencies Glossary"
 
 All core competencies can be assigned into one of four categories: <span style='color:#0096c7'>{{< fa heart >}} **Values**</span>, <span style='color:#ff9500'>{{< fa wand-magic-sparkles >}} **Skills**</span>, <span style='color:#55a630'>{{< fa hand-holding-heart >}} **Stewardship**</span>, and <span style='color:#7b2cbf'>{{< fa square-poll-vertical >}} **Results**</span>. Click a competency below to see a short description and growth indicators. Clicking one of the card images will zoom it in and make the image more easily visible.
 
-## <span style='color:#0096c7'>{{< fa heart >}} Values | Valores</span>
+## [{{< fa heart >}} Values | Valores]{.cc-value}
 
 :::{.callout-note icon="false" collapse="true"}
 ### {{< fa heart >}} Exercise creative courage \| Ejercitar la valentía creativa
@@ -65,7 +65,7 @@ All core competencies can be assigned into one of four categories: <span style='
 
 
 
-## <span style='color:#ff9500'>{{< fa wand-magic-sparkles >}} Skills | Habilidades</span>
+## [{{< fa wand-magic-sparkles >}} Skills | Habilidades]{.cc-skill}
 
 :::{.callout-warning icon="false" collapse="true"}
 ### {{< fa wand-magic-sparkles >}} Bring vision to life \| Dar vida a la visión
@@ -124,7 +124,7 @@ All core competencies can be assigned into one of four categories: <span style='
 
 
 
-## <span style='color:#55a630'>{{< fa hand-holding-heart >}} Stewardship | Fortalecimiento</span>
+## [{{< fa hand-holding-heart >}} Stewardship | Fortalecimiento]{.cc-steward}
 
 :::{.callout-tip icon="false" collapse="true"}
 ### {{< fa hand-holding-heart >}} Active listening \| Escucha activa
@@ -183,7 +183,7 @@ All core competencies can be assigned into one of four categories: <span style='
 
 
 
-## <span style='color:#7b2cbf'>{{< fa square-poll-vertical >}} Results | Resultados</span>
+## [{{< fa square-poll-vertical >}} Results | Resultados]{.cc-result}
 
 :::{.callout-caution icon="false" collapse="true"}
 ### {{< fa square-poll-vertical >}} Deliver high quality results \| Entrega resultados de alta calidad
